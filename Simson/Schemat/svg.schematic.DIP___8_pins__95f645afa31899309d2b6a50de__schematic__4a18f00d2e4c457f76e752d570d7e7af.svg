@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1.83in" version="1.2" xmlns="http://www.w3.org/2000/svg" height="1.53in" viewBox="0 0 1830 1530" id="svg2">
+ <g id="schematic">
+  <sodipodi:namedview showgrid="false" objecttolerance="10" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" pagecolor="#ffffff" bordercolor="#666666" id="namedview40" borderopacity="1" guidetolerance="10" gridtolerance="10"/>
+  <metadata id="metadata52">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" rdf:about="">
+     <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+     <dc:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+     <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+    </cc:Work>
+   </rdf:RDF>
+  </metadata>
+  <defs id="defs50">>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+</defs>
+  <rect width="1200" x="315" y="15" height="1500" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="rect5"/>
+  <g style="font-size:235px;text-anchor:middle;fill:#000000;stroke:none;font-family:DroidSans" id="label" transform="translate(23.323171,-625.06098)">
+   <text x="905.67072" y="805.51831" style="font-size:133.33334351px" id="tspan3063">LM741</text>
+  </g>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line8" y1="315" y2="315" x1="15" x2="300"/>
+  <rect width="300" x="0" y="300" height="30" style="fill:none;stroke-width:0" id="connector0pin"/>
+  <rect width="30" x="0" y="300" height="30" style="fill:none;stroke-width:0" id="connector0terminal"/>
+  <text x="390" y="350" style="font-size:130px;text-anchor:start;fill:#000000;stroke:none;font-family:DroidSans" id="label0">1Komp</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line13" y1="315" y2="315" x1="1515" x2="1815"/>
+  <rect width="300" x="1530" y="300" height="30" style="fill:none;stroke-width:0" id="connector7pin"/>
+  <rect width="30" x="1830" y="300" height="30" style="fill:none;stroke-width:0" id="connector7terminal"/>
+  <text x="1440" y="350" style="font-size:130px;text-anchor:end;fill:#000000;stroke:none;font-family:DroidSans" id="label7">NC 8</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line18" y1="615" y2="615" x1="15" x2="300"/>
+  <rect width="300" x="0" y="600" height="30" style="fill:none;stroke-width:0" id="connector1pin"/>
+  <rect width="30" x="0" y="600" height="30" style="fill:none;stroke-width:0" id="connector1terminal"/>
+  <text x="390" y="650" style="font-size:130px;text-anchor:start;fill:#000000;stroke:none;font-family:DroidSans" id="label1">2 -</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line23" y1="615" y2="615" x1="1515" x2="1815"/>
+  <rect width="300" x="1530" y="600" height="30" style="fill:none;stroke-width:0" id="connector6pin"/>
+  <rect width="30" x="1830" y="600" height="30" style="fill:none;stroke-width:0" id="connector6terminal"/>
+  <text x="1440" y="650" style="font-size:130px;text-anchor:end;fill:#000000;stroke:none;font-family:DroidSans" id="label6">+V 7</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line28" y1="915" y2="915" x1="15" x2="300"/>
+  <rect width="300" x="0" y="900" height="30" style="fill:none;stroke-width:0" id="connector2pin"/>
+  <rect width="30" x="0" y="900" height="30" style="fill:none;stroke-width:0" id="connector2terminal"/>
+  <text x="390" y="950" style="font-size:130px;text-anchor:start;fill:#000000;stroke:none;font-family:DroidSans" id="label2">3+</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line33" y1="915" y2="915" x1="1515" x2="1815"/>
+  <rect width="300" x="1530" y="900" height="30" style="fill:none;stroke-width:0" id="connector5pin"/>
+  <rect width="30" x="1830" y="900" height="30" style="fill:none;stroke-width:0" id="connector5terminal"/>
+  <text x="1440" y="950" style="font-size:130px;text-anchor:end;fill:#000000;stroke:none;font-family:DroidSans" id="label5">Out 6</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line38" y1="1215" y2="1215" x1="15" x2="300"/>
+  <rect width="300" x="0" y="1200" height="30" style="fill:none;stroke-width:0" id="connector3pin"/>
+  <rect width="30" x="0" y="1200" height="30" style="fill:none;stroke-width:0" id="connector3terminal"/>
+  <text x="390" y="1250" style="font-size:130px;text-anchor:start;fill:#000000;stroke:none;font-family:DroidSans" id="label3">4 -V</text>
+  <line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" id="line43" y1="1215" y2="1215" x1="1515" x2="1815"/>
+  <rect width="300" x="1530" y="1200" height="30" style="fill:none;stroke-width:0" id="connector4pin"/>
+  <rect width="30" x="1830" y="1200" height="30" style="fill:none;stroke-width:0" id="connector4terminal"/>
+  <text x="1440" y="1250" style="font-size:130px;text-anchor:end;fill:#000000;stroke:none;font-family:DroidSans" id="label4">Komp 5</text>
+  <path style="fill:none;stroke:#000000;stroke-opacity:1" id="path3021" d="m -106.63353,-24.769207 -15.42828,8.90752 -15.42827,8.9075192 0,-17.8150402 0,-17.815038 15.42827,8.90752 z" transform="matrix(11.111111,0,0,11.111111,2248.3537,1054.2073)"/>
+  <path style="fill:none;stroke:#000000;stroke-width:8.15246773px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="path3793" d="m 718.35363,615.73168 -100.44788,0"/>
+  <path style="fill:none;stroke:#000000;stroke-width:8.15246773px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="path3797" d="m 713.689,904.939 -100.44788,0"/>
+  <g style="font-size:133.33332825px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans" id="text3799" xml:space="preserve">
+   <text x="480.45731" y="802.31708" id="tspan3801">In</text>
+  </g>
+  <path style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="path3805" d="m 95.298473,69.689633 35.264637,0 0,12.174694 6.29725,0" transform="scale(11.111111,11.111111)"/>
+ </g>
+</svg>

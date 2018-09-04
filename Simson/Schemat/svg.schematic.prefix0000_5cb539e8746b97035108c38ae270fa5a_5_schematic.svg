@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.7464715 15.490449" x="0in" id="svg43" width="0.18686895in" y="0in" height="0.60986173in"  gorn="0" version="1.2">
+    <desc >
+        <referenceFile >trafo.svg</referenceFile>
+    </desc>
+    <metadata id="metadata49" >
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work xmlns:cc="http://creativecommons.org/ns#" rdf:about="" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs id="defs47" />
+    <g transform="translate(3.2224716,0.00173858)" >
+        <g >
+            <g id="schematic"  gorn="0.3.0.0">
+                <path id="path10" stroke-width="0.25400001" d="m 0.127,2.66347 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.3.0.0.0" class="other" fill="none"/>
+                <path id="path12" stroke-width="0.25400001" d="m 0.127,5.20347 a 1.27,1.27 0 0 0 1.27,-1.27"  stroke="#000000" gorn="0.3.0.0.1" class="other" fill="none"/>
+                <path id="path14" stroke-width="0.25400001" d="m 0.127,5.20347 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.3.0.0.2" class="other" fill="none"/>
+                <path id="path16" stroke-width="0.25400001" d="m 0.127,7.74347 a 1.27,1.27 0 0 0 1.27,-1.27"  stroke="#000000" gorn="0.3.0.0.3" class="other" fill="none"/>
+                <path id="path18" stroke-width="0.25400001" d="m 0.127,7.74347 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.3.0.0.4" class="other" fill="none"/>
+                <path id="path20" stroke-width="0.25400001" d="M 0.127,10.2835 A 1.27,1.27 0 0 0 1.397,9.01347"  stroke="#000000" gorn="0.3.0.0.5" class="other" fill="none"/>
+                <path id="path22" stroke-width="0.25400001" d="m 0.127,10.2835 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.3.0.0.6" class="other" fill="none"/>
+                <path id="path24" stroke-width="0.25400001" d="m 0.127,12.8235 a 1.27,1.27 0 0 0 1.27,-1.27"  stroke="#000000" gorn="0.3.0.0.7" class="other" fill="none"/>
+                <line x1="0.127" x2="0.127" y1="0.123472" id="connector0pin" stroke-width="0.246944"  style="stroke-linecap:round" stroke="#787878" y2="2.66347" gorn="0.3.0.0.8" class="pin" connectorname="1"/>
+                <rect x="0.126753" id="connector0terminal" stroke-width="0" width="0.000493888" y="-0.00278694" height="0.00557388"  stroke="none" class="terminal" fill="none"/>
+                <line x1="0.127" x2="0.127" y1="15.3635" id="connector1pin" stroke-width="0.246944"  style="stroke-linecap:round" stroke="#787878" y2="12.8235" gorn="0.3.0.0.10" class="pin" connectorname="2"/>
+                <rect x="0.126753" id="connector1terminal" stroke-width="0" width="0.000493888" y="15.4842" height="0.00557389"  stroke="none" class="terminal" fill="none"/>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(-1,0,0,1,1.524,0.00173858)" >
+        <g >
+            <g id="g183"  gorn="0.4.0.0">
+                <path id="path147" stroke-width="0.25400001" d="m 0.127,2.66347 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.4.0.0.0" class="other" fill="none"/>
+                <path id="path149" stroke-width="0.25400001" d="m 0.127,5.20347 a 1.27,1.27 0 0 0 1.27,-1.27"  stroke="#000000" gorn="0.4.0.0.1" class="other" fill="none"/>
+                <path id="path151" stroke-width="0.25400001" d="m 0.127,5.20347 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.4.0.0.2" class="other" fill="none"/>
+                <path id="path153" stroke-width="0.25400001" d="m 0.127,7.74347 a 1.27,1.27 0 0 0 1.27,-1.27"  stroke="#000000" gorn="0.4.0.0.3" class="other" fill="none"/>
+                <path id="path155" stroke-width="0.25400001" d="m 0.127,7.74347 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.4.0.0.4" class="other" fill="none"/>
+                <path id="path157" stroke-width="0.25400001" d="M 0.127,10.2835 A 1.27,1.27 0 0 0 1.397,9.01347"  stroke="#000000" gorn="0.4.0.0.5" class="other" fill="none"/>
+                <path id="path159" stroke-width="0.25400001" d="m 0.127,10.2835 a 1.27,1.27 0 0 1 1.27,1.27"  stroke="#000000" gorn="0.4.0.0.6" class="other" fill="none"/>
+                <path id="path161" stroke-width="0.25400001" d="m 0.127,12.8235 a 1.27,1.27 0 0 0 1.27,-1.27"  stroke="#000000" gorn="0.4.0.0.7" class="other" fill="none"/>
+                <line x2="0.127" x1="0.127" y1="0.123472" id="connector2pin" stroke-width="0.246944"  style="stroke-linecap:round" stroke="#787878" y2="2.66347" gorn="0.4.0.0.8" connectorname="1" class="pin"/>
+                <rect x="0.126753" id="connector2terminal" stroke-width="0" width="0.000493888" y="-0.00278694" height="0.00557388" stroke="none" fill="none"/>
+                <rect x="0.127" id="rect165" stroke-width="0" width="9.9999997e-005" y="0.123472" height="9.9999997e-005"  stroke="none" gorn="0.4.0.0.9" class="terminal" fill="none"/>
+                <line x2="0.127" x1="0.127" y1="15.3635" id="connector3pin" stroke-width="0.246944"  style="stroke-linecap:round" stroke="#787878" y2="12.8235" gorn="0.4.0.0.10" connectorname="2" class="pin"/>
+                <rect x="0.126753" id="connector3terminal" stroke-width="0" width="0.000493888" y="15.4842" height="0.00557389" stroke="none" fill="none"/>
+                <rect x="0.127" id="rect175" stroke-width="0" width="9.9999997e-005" y="15.3635" height="9.9999997e-005"  stroke="none" gorn="0.4.0.0.11" class="terminal" fill="none"/>
+            </g>
+        </g>
+    </g>
+</svg>

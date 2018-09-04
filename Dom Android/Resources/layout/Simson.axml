@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true">
+    <Switch
+        android:id="@+id/keepalive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Utrzymaj połączenie" />
+    <com.github.lzyzsd.circleprogress.ArcProgress xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/arc_progress"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/keepalive"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:arc_max="12000"
+        app:arc_progress="5000"
+        app:arc_unfinished_color="#ff0000ff"
+        app:arc_finished_color="#ffffa500"
+        app:arc_suffix_text="RPM"
+        app:arc_bottom_text="60 Km/h"
+        app:arc_angle="260"
+        app:arc_bottom_text_size="50dp"
+        app:arc_stroke_width="15dp"
+        app:arc_text_size="50dp"
+        app:arc_suffix_text_size="25dp" />
+    <Dom_android.NProgressBar
+        android:layout_below="@id/arc_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestshift"
+        android:backgroundTint="#00000000"
+        android:theme="@style/Custom_pb2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:max="500"
+        android:scaleY="8" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConnectProgressBar"
+        android:indeterminate="true"
+        android:backgroundTint="#00000000"
+        android:theme="@style/Custom_pb"
+        android:visibility="invisible" />
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <Dom_android.NImageButton
+            android:src="@drawable/lewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lewa"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp" />
+        <Dom_android.NImageButton
+            android:src="@drawable/prawa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prawa"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp" />
+        <Dom_android.NImageButton
+            android:src="@drawable/kierunkowe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kierunkowe"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="false"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true" />
+        <Dom_android.NImageButton
+            android:src="@drawable/drogowe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drogowe"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:layout_toRightOf="@+id/kierunkowe" />
+        <Dom_android.NImageButton
+            android:src="@drawable/postojowe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/postojowe"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="false"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/kierunkowe" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/footer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="60dp">
+        <Dom_android.NImageButton
+            android:src="@drawable/dzien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dziennoc"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp" />
+        <Dom_android.NImageButton
+            android:src="@drawable/bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conn"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp" />
+        <Dom_android.NImageButton
+            android:src="@drawable/awaryjne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/awaryjne"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="false"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true" />
+        <Dom_android.NImageButton
+            android:src="@drawable/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stop"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:layout_toRightOf="@+id/awaryjne" />
+        <Dom_android.NImageButton
+            android:src="@drawable/tylne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tylne"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="false"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/awaryjne" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,1330 @@
+<!-- Created with Ai->XAML Export Plug-In Version 0.2 (PC/64) -->
+<!-- By Mike Swanson (http://blog.mikeswanson.com/)           -->
+
+<Viewbox Width="4276.513" Height="3623.658"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Canvas Width="4276.513" Height="3623.658">
+
+  <Canvas>
+
+  <Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/path7674 -->
+  <Path Data="F1 M 2155.688,721.873 C 2685.105,721.873 3114.282,1032.476 3114.282,1415.624 C 3114.282,1798.771 2685.105,2109.375 2155.688,2109.375 C 1626.271,2109.375 1197.094,1798.771 1197.094,1415.624 C 1197.094,1032.476 1626.271,721.873 2155.688,721.873 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2031.270,501.173" EndPoint="2030.609,548.137">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="25.425,0.000,0.000,28.346,-49480.143,-13484.648" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/rect5134 -->
+  <Path Opacity="0.7" Fill="#ffa54f11" Data="F1 M 1048.098,902.685 L 1048.098,1390.402 L 1047.378,1390.402 L 1047.378,1464.621 L 3150.924,1464.621 L 3150.924,1390.402 L 1199.996,1390.402 L 1199.996,902.685 L 1048.098,902.685 Z"/>
+
+  <!-- svg6624/layer1/rect7203-8 -->
+  <Path Fill="#ffc77036" Data="F1 M 4072.920,1001.822 L 4132.149,1001.822 L 4132.149,1800.218 L 4072.920,1800.218 L 4072.920,1001.822 Z"/>
+
+  <!-- svg6624/layer1/rect7207 -->
+  <Path Fill="#ffc77036" Data="F1 M 3133.405,1468.462 L 4131.200,1468.462 L 4131.200,3617.031 L 3133.405,3617.031 L 3133.405,1468.462 Z"/>
+
+  <!-- svg6624/layer1/rect7203 -->
+  <Path Fill="#ffc77036" Data="F1 M 997.772,1463.303 L 3180.449,1463.303 L 3180.449,1775.114 L 997.772,1775.114 L 997.772,1463.303 Z"/>
+
+  <!-- svg6624/layer1/rect7806 -->
+  <Path Fill="#ff303030" Data="F1 M 2843.037,1058.262 L 2937.191,1058.262 L 2937.191,1434.794 L 2843.037,1434.794 L 2843.037,1058.262 Z"/>
+
+  <!-- svg6624/layer1/rect6626 -->
+  <Path Fill="#ffc77036" Data="F1 M 56.698,981.413 L 1048.824,981.413 L 1048.824,3617.633 L 56.698,3617.633 L 56.698,981.413 Z"/>
+
+  <!-- svg6624/layer1/rect7203-0 -->
+  <Path Fill="#ffc77036" Data="F1 M 3130.369,1362.388 L 3193.507,1362.388 L 3193.507,1519.546 L 3130.369,1519.546 L 3130.369,1362.388 Z"/>
+
+  <!-- svg6624/layer1/rect7171-5 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 3194.179,1344.432 L 3273.784,1313.062 L 4072.920,1313.062 L 4072.920,1800.218 L 3194.180,1800.218 L 3194.179,1344.432 Z"/>
+
+  <!-- svg6624/layer1/rect7171-1 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 3190.693,1855.893 L 4069.433,1855.893 L 4069.433,3560.338 L 3190.693,3560.338 L 3190.693,1855.893 Z"/>
+
+  <!-- svg6624/layer1/rect5182 -->
+  <Path Opacity="0.8" Fill="#ff70350a" Data="F1 M 2893.875,846.584 L 2750.350,1011.195 L 4129.545,1002.078 L 4131.198,3617.031 L 4263.781,3491.078 L 4263.781,848.788 L 4265.709,846.577 L 2893.875,846.584 Z"/>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/ds/rect7171 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 113.391,2767.240 L 992.131,2767.240 L 992.131,3560.940 L 113.391,3560.940 L 113.391,2767.240 Z"/>
+
+  <!-- svg6624/layer1/ds/rect5010 -->
+  <Path Opacity="0.7" Fill="#ff323232" Data="F1 M 113.391,2767.240 L 113.391,3484.448 L 113.391,3560.940 L 992.130,3560.940 L 992.130,3484.448 L 245.973,3484.448 L 245.973,2767.240 L 113.391,2767.240 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/gs/rect7190 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 113.391,1916.846 L 992.131,1916.846 L 992.131,2710.547 L 113.391,2710.547 L 113.391,1916.846 Z"/>
+
+  <!-- svg6624/layer1/gs/rect5010-5 -->
+  <Path Opacity="0.7" Fill="#ff323232" Data="F1 M 113.391,1916.846 L 113.391,2634.054 L 113.391,2710.547 L 992.130,2710.547 L 992.130,2634.054 L 245.972,2634.054 L 245.972,1916.846 L 113.391,1916.846 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/dp/rect7192 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 113.391,1548.342 L 997.772,1548.342 L 997.772,1888.499 L 113.391,1888.499 L 113.391,1548.342 Z"/>
+
+  <!-- svg6624/layer1/dp/rect5010-2 -->
+  <Path Opacity="0.7" Fill="#ff323232" Data="F1 M 113.391,1548.342 L 113.391,1812.010 L 113.391,1888.503 L 998.475,1888.503 L 998.475,1812.010 L 246.930,1812.010 L 246.930,1548.342 L 113.391,1548.342 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/gp/rect7194 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 113.391,1038.106 L 992.131,1038.106 L 992.131,1463.303 L 113.391,1463.303 L 113.391,1038.106 Z"/>
+
+  <!-- svg6624/layer1/gp/rect5010-5-0 -->
+  <Path Opacity="0.7" Fill="#ff323232" Data="F1 M 113.391,1038.102 L 113.391,1386.810 L 113.391,1463.303 L 992.130,1463.303 L 992.130,1386.810 L 245.973,1386.810 L 245.973,1038.102 L 113.391,1038.102 Z"/>
+
+  </Canvas>
+
+  <!-- svg6624/layer1/rect5140 -->
+  <Path Opacity="0.8" Fill="#ff6f6f6f" Data="F1 M 3190.692,1855.893 L 3190.692,3482.994 L 3190.692,3482.994 L 3190.692,3560.338 L 4069.433,3560.338 L 4069.433,3482.994 L 3323.275,3482.994 L 3323.275,1855.893 L 3190.692,1855.893 Z"/>
+
+  <!-- svg6624/layer1/rect5148-8 -->
+  <Path Opacity="0.8" Fill="#ff6f6f6f" Data="F1 M 3321.391,1313.771 L 3192.922,1362.554 L 3192.922,1801.910 L 3321.391,1801.910 L 3321.391,1801.910 L 4072.919,1801.910 L 4072.919,1724.300 L 3321.391,1724.300 L 3321.391,1313.771 Z"/>
+
+  <!-- svg6624/layer1/rect5175 -->
+  <Path Opacity="0.8" Fill="#ff323232" Data="F1 M 3259.520,1313.141 L 3321.392,1313.764 L 3193.508,1362.329 L 3130.370,1362.329 C 3259.520,1313.131 3133.886,1362.329 3259.520,1313.131 L 3259.520,1313.141 Z"/>
+
+  <!-- svg6624/layer1/rect7203-6 -->
+  <Path Fill="#ffc77036" Data="F1 M 2768.983,1001.822 L 4129.613,1001.822 L 4129.613,1058.514 L 2768.983,1058.514 C 2731.392,1056.445 2731.722,1003.410 2768.983,1001.822 Z"/>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/g3929/rect7806-2 -->
+  <Path Opacity="0.8" Data="F1 M 2761.440,1058.213 L 2906.458,1058.213 L 2906.458,1434.998 L 2761.440,1434.998 L 2761.440,1058.213 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2094.479,461.923" EndPoint="2096.157,461.923">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff000000"/>
+          <GradientStop Offset="0.72" Color="#ff656565"/>
+          <GradientStop Offset="1.00" Color="#ffcbcbcb"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="90.185,0.000,0.000,16.955,-186132.937,-6585.512" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g3929/rect7806-2-5 -->
+  <Path Opacity="0.8" Data="F1 M 3051.476,1058.113 L 2906.458,1058.113 L 2906.458,1434.998 L 3051.476,1434.998 L 3051.476,1058.113 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2139.564,461.950" EndPoint="2141.242,461.950">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff000000"/>
+          <GradientStop Offset="0.72" Color="#ff656565"/>
+          <GradientStop Offset="1.00" Color="#ffcbcbcb"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-90.185,0.000,0.000,16.960,196011.825,-6588.084" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/g3929/g4845/g4787/rect4717 -->
+  <Path Fill="#ff000000" Data="F1 M 1877.730,1353.932 L 2138.759,1353.932 L 2138.759,1418.872 L 1877.730,1418.872 L 1877.730,1353.932 Z"/>
+
+  <!-- svg6624/layer1/g3929/g4845/g4787/rect7806-2-9 -->
+  <Path Opacity="0.8" Data="F1 M 1813.799,1353.603 L 2057.724,1353.603 L 2057.724,1419.021 L 1813.799,1419.021 L 1813.799,1353.603 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2103.619,-23.718" EndPoint="2105.297,-23.718">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff000000"/>
+          <GradientStop Offset="0.50" Color="#ff656565"/>
+          <GradientStop Offset="1.00" Color="#ffcbcbcb"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="151.695,0.000,0.000,2.944,-317299.160,1456.133" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g3929/g4845/g4787/rect7806-2-5-1 -->
+  <Path Opacity="0.8" Data="F1 M 2135.991,1353.932 L 2057.552,1353.932 L 2057.552,1418.842 L 2135.991,1418.842 L 2135.991,1353.932 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2158.698,-28.314" EndPoint="2160.376,-28.314">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff000000"/>
+          <GradientStop Offset="0.00" Color="#ff656565"/>
+          <GradientStop Offset="1.00" Color="#ffcbcbcb"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-48.780,0.000,0.000,2.921,107439.873,1469.092" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  </Canvas>
+
+  <!-- svg6624/layer1/g3929/g4845/rect4539 -->
+  <Path Fill="#ff000000" Data="F1 M 1297.826,529.590 L 2718.663,529.590 L 2718.663,1354.007 L 1297.826,1354.007 L 1297.826,529.590 Z"/>
+
+  <!-- svg6624/layer1/g3929/g4845/rect4656 -->
+  <Path StrokeThickness="0.1" Stroke="#ffbababa" StrokeMiterLimit="1.0" Fill="#ff0000ff" Data="F1 M 1339.606,557.646 L 2676.883,557.646 L 2676.883,1302.519 L 1339.606,1302.519 L 1339.606,557.646 Z"/>
+
+  <!-- svg6624/layer1/g3929/g4845/rect4539-6 -->
+  <Path Data="F1 M 1339.605,557.646 L 1339.605,1302.517 L 1472.277,1302.517 C 1816.888,1015.175 2233.389,827.338 2676.882,759.254 L 2676.882,557.646 L 1339.605,557.646 Z">
+    <Path.Fill>
+      <RadialGradientBrush MappingMode="Absolute" GradientOrigin="2051.800,472.091" Center="2051.800,472.091" RadiusX="23.618" RadiusY="23.618">
+        <RadialGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff5498ff"/>
+          <GradientStop Offset="1.00" Color="#ffffffff"/>
+        </RadialGradientBrush.GradientStops>
+        <RadialGradientBrush.Transform>
+          <MatrixTransform Matrix="38.270,-0.195,0.109,21.462,-76564.851,-8802.042" />
+        </RadialGradientBrush.Transform>
+      </RadialGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g3929/g4845/rect4539-6-5 -->
+  <Path Data="F1 M 1341.765,562.701 L 2679.043,562.701 L 2679.043,1307.574 L 1341.765,1307.574 L 1341.765,562.701 Z">
+    <Path.Fill>
+      <RadialGradientBrush MappingMode="Absolute" GradientOrigin="2051.800,472.091" Center="2051.800,472.091" RadiusX="23.618" RadiusY="23.618">
+        <RadialGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff5498ff"/>
+          <GradientStop Offset="1.00" Color="#ffffffff"/>
+        </RadialGradientBrush.GradientStops>
+        <RadialGradientBrush.Transform>
+          <MatrixTransform Matrix="38.270,-0.195,0.109,21.462,-76562.697,-8796.988" />
+        </RadialGradientBrush.Transform>
+      </RadialGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g3929/g4845/rect4801 -->
+  <Path Data="F1 M 1734.909,1414.690 L 2282.550,1414.690 C 2282.550,1414.690 2294.491,1415.455 2294.370,1428.054 C 2294.248,1440.863 2282.550,1440.590 2282.550,1440.590 L 2008.729,1440.590 L 1734.909,1440.590 C 1734.909,1440.590 1722.054,1440.576 1722.118,1427.929 C 1722.183,1415.060 1734.909,1414.690 1734.909,1414.690 L 1734.909,1414.690 Z">
+    <Path.Fill>
+      <RadialGradientBrush MappingMode="Absolute" GradientOrigin="2022.880,-1701.124" Center="2022.880,-1701.124" RadiusX="11.179" RadiusY="11.179">
+        <RadialGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff191919"/>
+          <GradientStop Offset="1.00" Color="#ff000000"/>
+        </RadialGradientBrush.GradientStops>
+        <RadialGradientBrush.Transform>
+          <MatrixTransform Matrix="25.142,0.068,-0.009,0.759,-48864.957,2580.547" />
+        </RadialGradientBrush.Transform>
+      </RadialGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/g4845-9/g4787-5/rect4717-6 -->
+  <Path Fill="#ff000000" Data="F1 M 3435.580,831.766 L 3696.610,831.766 L 3696.610,896.706 L 3435.580,896.706 L 3435.580,831.766 Z"/>
+
+  <!-- svg6624/layer1/g4845-9/g4787-5/rect7806-2-9-2 -->
+  <Path Opacity="0.8" Data="F1 M 3371.649,831.437 L 3615.574,831.437 L 3615.574,896.855 L 3371.649,896.855 L 3371.649,831.437 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2103.619,-23.718" EndPoint="2105.297,-23.718">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff000000"/>
+          <GradientStop Offset="0.50" Color="#ff656565"/>
+          <GradientStop Offset="1.00" Color="#ffcbcbcb"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="151.695,0.000,0.000,2.944,-315741.310,933.967" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g4845-9/g4787-5/rect7806-2-5-1-0 -->
+  <Path Opacity="0.8" Data="F1 M 3693.841,831.766 L 3615.402,831.766 L 3615.402,896.676 L 3693.841,896.676 L 3693.841,831.766 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2158.698,-28.314" EndPoint="2160.376,-28.314">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff000000"/>
+          <GradientStop Offset="0.00" Color="#ff656565"/>
+          <GradientStop Offset="1.00" Color="#ffcbcbcb"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-48.780,0.000,0.000,2.921,108997.723,946.926" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  </Canvas>
+
+  <!-- svg6624/layer1/g4845-9/rect4539-2 -->
+  <Path Fill="#ff000000" Data="F1 M 2855.676,7.424 L 4276.513,7.424 L 4276.513,831.841 L 2855.676,831.841 L 2855.676,7.424 Z"/>
+
+  <!-- svg6624/layer1/g4845-9/rect4656-8 -->
+  <Path StrokeThickness="0.1" Stroke="#ffbababa" StrokeMiterLimit="1.0" Fill="#ff0000ff" Data="F1 M 2897.456,35.480 L 4234.734,35.480 L 4234.734,780.353 L 2897.456,780.353 L 2897.456,35.480 Z"/>
+
+  <!-- svg6624/layer1/g4845-9/rect4539-6-2 -->
+  <Path Data="F1 M 2897.455,35.480 L 2897.455,780.351 L 3030.128,780.351 C 3374.738,493.009 3791.239,305.172 4234.733,237.088 L 4234.733,35.480 L 2897.455,35.480 Z">
+    <Path.Fill>
+      <RadialGradientBrush MappingMode="Absolute" GradientOrigin="2051.800,472.091" Center="2051.800,472.091" RadiusX="23.618" RadiusY="23.618">
+        <RadialGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff5498ff"/>
+          <GradientStop Offset="1.00" Color="#ffffffff"/>
+        </RadialGradientBrush.GradientStops>
+        <RadialGradientBrush.Transform>
+          <MatrixTransform Matrix="38.270,-0.195,0.109,21.462,-75007.001,-9324.208" />
+        </RadialGradientBrush.Transform>
+      </RadialGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g4845-9/rect4539-6-5-9 -->
+  <Path Data="F1 M 2899.615,40.535 L 4236.893,40.535 L 4236.893,785.408 L 2899.615,785.408 L 2899.615,40.535 Z">
+    <Path.Fill>
+      <RadialGradientBrush MappingMode="Absolute" GradientOrigin="2051.800,472.091" Center="2051.800,472.091" RadiusX="23.618" RadiusY="23.618">
+        <RadialGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff5498ff"/>
+          <GradientStop Offset="1.00" Color="#ffffffff"/>
+        </RadialGradientBrush.GradientStops>
+        <RadialGradientBrush.Transform>
+          <MatrixTransform Matrix="38.270,-0.195,0.109,21.462,-75004.846,-9319.154" />
+        </RadialGradientBrush.Transform>
+      </RadialGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/g4845-9/rect4801-9 -->
+  <Path Data="F1 M 3292.759,892.524 L 3840.400,892.524 C 3840.400,892.524 3852.342,893.289 3852.221,905.888 C 3852.099,918.697 3840.400,918.424 3840.400,918.424 L 3566.580,918.424 L 3292.759,918.424 C 3292.759,918.424 3279.904,918.410 3279.968,905.763 C 3280.034,892.894 3292.759,892.524 3292.759,892.524 L 3292.759,892.524 Z">
+    <Path.Fill>
+      <RadialGradientBrush MappingMode="Absolute" GradientOrigin="2022.880,-1701.124" Center="2022.880,-1701.124" RadiusX="11.179" RadiusY="11.179">
+        <RadialGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ff191919"/>
+          <GradientStop Offset="1.00" Color="#ff000000"/>
+        </RadialGradientBrush.GradientStops>
+        <RadialGradientBrush.Transform>
+          <MatrixTransform Matrix="25.142,0.068,-0.009,0.759,-47307.107,2058.381" />
+        </RadialGradientBrush.Transform>
+      </RadialGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  </Canvas>
+
+  <!-- svg6624/layer1/path5213 -->
+  <Path StrokeThickness="0.0" Stroke="#ffffffff" StrokeMiterLimit="1.0" Fill="#ffffffff" Data="F1 M 4129.545,1002.081 C 4174.934,950.246 4220.322,898.415 4265.709,846.584"/>
+
+  <!-- svg6624/layer1/rect5348 -->
+  <Path Fill="#ff000000" Data="F1 M 2976.000,1635.994 C 2975.994,1635.997 2956.050,1648.063 2932.642,1676.347 C 2921.686,1689.583 2919.752,1718.185 2919.752,1718.185 L 2751.257,1718.185 L 2925.612,1718.185 L 2976.000,1635.994 Z M 2968.061,1635.987 L 2976.000,1635.994 L 2976.002,1635.994 L 2976.005,1635.987 L 2968.061,1635.987 Z"/>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/rect7205 -->
+  <Path Fill="#ffcbcbcb" Data="F1 M 1048.824,1519.546 L 3130.369,1519.546 L 3130.369,1718.421 L 1048.824,1718.421 L 1048.824,1519.546 Z"/>
+
+  <!-- svg6624/layer1/kl/rect5186 -->
+  <Path Opacity="0.7" Fill="#ffa54e11" Data="F1 M 1048.632,1519.200 L 1048.632,1718.455 L 1049.346,1718.455 L 1049.346,1719.023 L 3130.737,1719.023 L 3130.737,1641.219 L 1200.614,1641.219 L 1200.614,1519.189 L 1048.632,1519.200 Z"/>
+
+  <!-- svg6624/layer1/kl/path5360 -->
+  <Path Opacity="0.7" Fill="#ff000000" Data="F1 M 1362.650,1634.800 L 2976.001,1635.990 C 2976.001,1635.990 2956.053,1648.056 2932.642,1676.344 C 2921.686,1689.579 2919.752,1718.182 2919.752,1718.182 L 1309.916,1719.345 C 1309.916,1719.345 1294.316,1683.078 1337.523,1655.614 C 1379.863,1628.700 1362.650,1634.807 1362.650,1634.807 L 1362.650,1634.800 Z"/>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1438.261,1647.886 L 1468.730,1647.886 L 1453.865,1664.291 L 1423.396,1664.291 L 1438.261,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 1468.788,1647.886 L 1499.256,1647.886 L 1484.277,1664.291 L 1453.809,1664.291 L 1468.788,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1499.256,1647.886 L 1529.725,1647.886 L 1514.746,1664.291 L 1484.277,1664.291 L 1499.256,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 1423.340,1664.291 L 1453.809,1664.291 L 1438.830,1680.696 L 1408.361,1680.696 L 1423.340,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 1453.809,1664.291 L 1484.277,1664.291 L 1469.298,1680.696 L 1438.830,1680.696 L 1453.809,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 1484.277,1664.291 L 1514.746,1664.291 L 1499.767,1680.696 L 1469.298,1680.696 L 1484.277,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1408.361,1680.696 L 1438.830,1680.696 L 1423.851,1697.101 L 1393.382,1697.101 L 1408.361,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 1438.830,1680.696 L 1469.298,1680.696 L 1454.319,1697.101 L 1423.851,1697.101 L 1438.830,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1469.298,1680.696 L 1499.767,1680.696 L 1484.788,1697.101 L 1454.319,1697.101 L 1469.298,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1574.605,1647.886 L 1605.074,1647.886 L 1590.210,1664.291 L 1559.741,1664.291 L 1574.605,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 1605.132,1647.886 L 1635.601,1647.886 L 1620.622,1664.291 L 1590.153,1664.291 L 1605.132,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1635.601,1647.886 L 1666.070,1647.886 L 1651.090,1664.291 L 1620.622,1664.291 L 1635.601,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 1559.684,1664.291 L 1590.153,1664.291 L 1575.174,1680.696 L 1544.705,1680.696 L 1559.684,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 1590.153,1664.291 L 1620.622,1664.291 L 1605.643,1680.696 L 1575.174,1680.696 L 1590.153,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 1620.622,1664.291 L 1651.090,1664.291 L 1636.111,1680.696 L 1605.643,1680.696 L 1620.622,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1544.705,1680.696 L 1575.174,1680.696 L 1560.195,1697.101 L 1529.726,1697.101 L 1544.705,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 1575.174,1680.696 L 1605.643,1680.696 L 1590.664,1697.101 L 1560.195,1697.101 L 1575.174,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5779/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1605.643,1680.696 L 1636.111,1680.696 L 1621.132,1697.101 L 1590.664,1697.101 L 1605.643,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1710.950,1647.886 L 1741.418,1647.886 L 1726.554,1664.291 L 1696.085,1664.291 L 1710.950,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 1741.476,1647.886 L 1771.945,1647.886 L 1756.966,1664.291 L 1726.497,1664.291 L 1741.476,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1771.945,1647.886 L 1802.414,1647.886 L 1787.435,1664.291 L 1756.966,1664.291 L 1771.945,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 1696.029,1664.291 L 1726.497,1664.291 L 1711.518,1680.696 L 1681.050,1680.696 L 1696.029,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 1726.497,1664.291 L 1756.966,1664.291 L 1741.987,1680.696 L 1711.518,1680.696 L 1726.497,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 1756.966,1664.291 L 1787.435,1664.291 L 1772.456,1680.696 L 1741.987,1680.696 L 1756.966,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1681.050,1680.696 L 1711.518,1680.696 L 1696.539,1697.101 L 1666.071,1697.101 L 1681.050,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 1711.518,1680.696 L 1741.987,1680.696 L 1727.008,1697.101 L 1696.539,1697.101 L 1711.518,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5781/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1741.987,1680.696 L 1772.456,1680.696 L 1757.477,1697.101 L 1727.008,1697.101 L 1741.987,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1847.294,1647.886 L 1877.763,1647.886 L 1862.898,1664.291 L 1832.430,1664.291 L 1847.294,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 1877.821,1647.886 L 1908.290,1647.886 L 1893.311,1664.291 L 1862.842,1664.291 L 1877.821,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1908.290,1647.886 L 1938.758,1647.886 L 1923.779,1664.291 L 1893.311,1664.291 L 1908.290,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 1832.373,1664.291 L 1862.842,1664.291 L 1847.863,1680.696 L 1817.394,1680.696 L 1832.373,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 1862.842,1664.291 L 1893.311,1664.291 L 1878.331,1680.696 L 1847.863,1680.696 L 1862.842,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 1893.311,1664.291 L 1923.779,1664.291 L 1908.800,1680.696 L 1878.331,1680.696 L 1893.311,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1817.394,1680.696 L 1847.863,1680.696 L 1832.884,1697.101 L 1802.415,1697.101 L 1817.394,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 1847.863,1680.696 L 1878.331,1680.696 L 1863.352,1697.101 L 1832.884,1697.101 L 1847.863,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5783/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1878.331,1680.696 L 1908.800,1680.696 L 1893.821,1697.101 L 1863.352,1697.101 L 1878.331,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1983.638,1647.886 L 2014.107,1647.886 L 1999.243,1664.291 L 1968.774,1664.291 L 1983.638,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2014.165,1647.886 L 2044.634,1647.886 L 2029.655,1664.291 L 1999.186,1664.291 L 2014.165,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2044.634,1647.886 L 2075.103,1647.886 L 2060.124,1664.291 L 2029.655,1664.291 L 2044.634,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 1968.717,1664.291 L 1999.186,1664.291 L 1984.207,1680.696 L 1953.738,1680.696 L 1968.717,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 1999.186,1664.291 L 2029.655,1664.291 L 2014.676,1680.696 L 1984.207,1680.696 L 1999.186,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2029.655,1664.291 L 2060.124,1664.291 L 2045.145,1680.696 L 2014.676,1680.696 L 2029.655,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 1953.738,1680.696 L 1984.207,1680.696 L 1969.228,1697.101 L 1938.759,1697.101 L 1953.738,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 1984.207,1680.696 L 2014.676,1680.696 L 1999.697,1697.101 L 1969.228,1697.101 L 1984.207,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5785/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2014.676,1680.696 L 2045.145,1680.696 L 2030.166,1697.101 L 1999.697,1697.101 L 2014.676,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2119.983,1647.886 L 2150.451,1647.886 L 2135.587,1664.291 L 2105.118,1664.291 L 2119.983,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2150.510,1647.886 L 2180.978,1647.886 L 2165.999,1664.291 L 2135.531,1664.291 L 2150.510,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2180.978,1647.886 L 2211.447,1647.886 L 2196.468,1664.291 L 2165.999,1664.291 L 2180.978,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 2105.062,1664.291 L 2135.531,1664.291 L 2120.552,1680.696 L 2090.083,1680.696 L 2105.062,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 2135.531,1664.291 L 2165.999,1664.291 L 2151.020,1680.696 L 2120.552,1680.696 L 2135.531,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2165.999,1664.291 L 2196.468,1664.291 L 2181.489,1680.696 L 2151.020,1680.696 L 2165.999,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2090.083,1680.696 L 2120.552,1680.696 L 2105.573,1697.101 L 2075.104,1697.101 L 2090.083,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 2120.552,1680.696 L 2151.020,1680.696 L 2136.041,1697.101 L 2105.573,1697.101 L 2120.552,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5787/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2151.020,1680.696 L 2181.489,1680.696 L 2166.510,1697.101 L 2136.041,1697.101 L 2151.020,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2256.327,1647.886 L 2286.796,1647.886 L 2271.932,1664.291 L 2241.463,1664.291 L 2256.327,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2286.854,1647.886 L 2317.323,1647.886 L 2302.344,1664.291 L 2271.875,1664.291 L 2286.854,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2317.323,1647.886 L 2347.791,1647.886 L 2332.812,1664.291 L 2302.344,1664.291 L 2317.323,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 2241.406,1664.291 L 2271.875,1664.291 L 2256.896,1680.696 L 2226.427,1680.696 L 2241.406,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 2271.875,1664.291 L 2302.344,1664.291 L 2287.365,1680.696 L 2256.896,1680.696 L 2271.875,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2302.344,1664.291 L 2332.812,1664.291 L 2317.833,1680.696 L 2287.365,1680.696 L 2302.344,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2226.427,1680.696 L 2256.896,1680.696 L 2241.917,1697.101 L 2211.448,1697.101 L 2226.427,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 2256.896,1680.696 L 2287.365,1680.696 L 2272.386,1697.101 L 2241.917,1697.101 L 2256.896,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5789/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2287.365,1680.696 L 2317.833,1680.696 L 2302.854,1697.101 L 2272.386,1697.101 L 2287.365,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2392.672,1647.886 L 2423.140,1647.886 L 2408.276,1664.291 L 2377.807,1664.291 L 2392.672,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2423.198,1647.886 L 2453.667,1647.886 L 2438.688,1664.291 L 2408.219,1664.291 L 2423.198,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2453.667,1647.886 L 2484.136,1647.886 L 2469.157,1664.291 L 2438.688,1664.291 L 2453.667,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 2377.751,1664.291 L 2408.219,1664.291 L 2393.240,1680.696 L 2362.772,1680.696 L 2377.751,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 2408.219,1664.291 L 2438.688,1664.291 L 2423.709,1680.696 L 2393.240,1680.696 L 2408.219,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2438.688,1664.291 L 2469.157,1664.291 L 2454.178,1680.696 L 2423.709,1680.696 L 2438.688,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2362.772,1680.696 L 2393.240,1680.696 L 2378.261,1697.101 L 2347.793,1697.101 L 2362.772,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 2393.240,1680.696 L 2423.709,1680.696 L 2408.730,1697.101 L 2378.261,1697.101 L 2393.240,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5791/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2423.709,1680.696 L 2454.178,1680.696 L 2439.199,1697.101 L 2408.730,1697.101 L 2423.709,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2529.016,1647.886 L 2559.485,1647.886 L 2544.620,1664.291 L 2514.152,1664.291 L 2529.016,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2559.543,1647.886 L 2590.012,1647.886 L 2575.033,1664.291 L 2544.564,1664.291 L 2559.543,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2590.012,1647.886 L 2620.480,1647.886 L 2605.501,1664.291 L 2575.033,1664.291 L 2590.012,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 2514.095,1664.291 L 2544.564,1664.291 L 2529.585,1680.696 L 2499.116,1680.696 L 2514.095,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 2544.564,1664.291 L 2575.033,1664.291 L 2560.054,1680.696 L 2529.585,1680.696 L 2544.564,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2575.033,1664.291 L 2605.501,1664.291 L 2590.522,1680.696 L 2560.054,1680.696 L 2575.033,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2499.116,1680.696 L 2529.585,1680.696 L 2514.606,1697.101 L 2484.137,1697.101 L 2499.116,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 2529.585,1680.696 L 2560.054,1680.696 L 2545.075,1697.101 L 2514.606,1697.101 L 2529.585,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5793/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2560.054,1680.696 L 2590.522,1680.696 L 2575.543,1697.101 L 2545.075,1697.101 L 2560.054,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2665.360,1647.886 L 2695.829,1647.886 L 2680.965,1664.291 L 2650.496,1664.291 L 2665.360,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2695.887,1647.886 L 2726.356,1647.886 L 2711.377,1664.291 L 2680.908,1664.291 L 2695.887,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2726.356,1647.886 L 2756.825,1647.886 L 2741.846,1664.291 L 2711.377,1664.291 L 2726.356,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 2650.439,1664.291 L 2680.908,1664.291 L 2665.929,1680.696 L 2635.460,1680.696 L 2650.439,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 2680.908,1664.291 L 2711.377,1664.291 L 2696.398,1680.696 L 2665.929,1680.696 L 2680.908,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2711.377,1664.291 L 2741.846,1664.291 L 2726.867,1680.696 L 2696.398,1680.696 L 2711.377,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2635.460,1680.696 L 2665.929,1680.696 L 2650.950,1697.101 L 2620.481,1697.101 L 2635.460,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 2665.929,1680.696 L 2696.398,1680.696 L 2681.419,1697.101 L 2650.950,1697.101 L 2665.929,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5795/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2696.398,1680.696 L 2726.867,1680.696 L 2711.888,1697.101 L 2681.419,1697.101 L 2696.398,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5358/rect5355 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2801.705,1647.886 L 2832.173,1647.886 L 2817.309,1664.291 L 2786.840,1664.291 L 2801.705,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5461/rect5459 -->
+  <Path Data="F1 M 2832.232,1647.886 L 2862.700,1647.886 L 2847.721,1664.291 L 2817.253,1664.291 L 2832.232,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5465/rect5463 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2862.700,1647.886 L 2893.169,1647.886 L 2878.190,1664.291 L 2847.721,1664.291 L 2862.700,1647.886 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5473/rect5471 -->
+  <Path Data="F1 M 2786.784,1664.291 L 2817.253,1664.291 L 2802.274,1680.696 L 2771.805,1680.696 L 2786.784,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5477/rect5475 -->
+  <Path Data="F1 M 2817.253,1664.291 L 2847.721,1664.291 L 2832.742,1680.696 L 2802.274,1680.696 L 2817.253,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5481/rect5479 -->
+  <Path Data="F1 M 2847.721,1664.291 L 2878.190,1664.291 L 2863.211,1680.696 L 2832.742,1680.696 L 2847.721,1664.291 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5485/rect5483 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2771.805,1680.696 L 2802.274,1680.696 L 2787.294,1697.101 L 2756.826,1697.101 L 2771.805,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5489/rect5487 -->
+  <Path Data="F1 M 2802.274,1680.696 L 2832.742,1680.696 L 2817.763,1697.101 L 2787.294,1697.101 L 2802.274,1680.696 Z"/>
+
+  </Canvas>
+
+  <Canvas>
+
+  <!-- svg6624/layer1/kl/use5797/g5533/g5493/rect5491 -->
+  <Path Fill="#ff0000ff" Data="F1 M 2832.742,1680.696 L 2863.211,1680.696 L 2848.232,1697.101 L 2817.763,1697.101 L 2832.742,1680.696 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  </Canvas>
+
+  <!-- svg6624/layer1/rect5869 -->
+  <Path Data="F1 M 1047.094,0.000 L 4258.031,0.000 L 4258.031,1471.874 L 1047.094,1471.874 L 1047.094,0.000 Z"/>
+
+  <!-- svg6624/layer1/path5911 -->
+  <Path Data="F1 M 1676.399,3573.941 C 1678.230,3573.941 1679.714,3585.069 1679.714,3598.799 C 1679.714,3612.529 1678.230,3623.658 1676.399,3623.658 C 1674.569,3623.658 1673.085,3612.529 1673.085,3598.799 C 1673.085,3585.069 1674.569,3573.941 1676.399,3573.941 Z"/>
+
+  <!-- svg6624/layer1/path5959 -->
+  <Path Data="F1 M 245.973,2767.240 L 245.973,3140.545 C 453.116,3140.545 621.039,2973.411 621.039,2767.241 C 621.039,2767.240 621.039,2767.240 621.039,2767.240 L 245.973,2767.240 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="1978.419,576.916" EndPoint="1992.973,591.426">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="30.118,0.000,0.000,30.118,-59340.457,-14608.631" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7550 -->
+  <Path Data="F1 M 992.131,2767.240 L 992.131,3140.545 C 784.988,3140.545 617.065,2973.411 617.065,2767.241 C 617.065,2767.240 617.065,2767.240 617.065,2767.240 L 992.131,2767.240 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2113.420,576.916" EndPoint="2127.974,591.426">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-30.118,0.000,0.000,30.118,64644.560,-14608.631" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7554 -->
+  <Path Data="F1 M 245.972,1916.847 L 245.972,2290.152 C 453.115,2290.152 621.038,2123.017 621.038,1916.847 C 621.038,1916.847 621.038,1916.847 621.038,1916.847 L 245.972,1916.847 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="1978.419,576.916" EndPoint="1992.973,591.426">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="30.118,0.000,0.000,30.118,-59340.457,-15459.025" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7556 -->
+  <Path Data="F1 M 992.130,1916.847 L 992.130,2290.152 C 784.987,2290.152 617.065,2123.017 617.065,1916.847 C 617.065,1916.847 617.065,1916.847 617.065,1916.847 L 992.130,1916.847 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2113.420,576.916" EndPoint="2127.974,591.426">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-30.118,0.000,0.000,30.118,64644.560,-15459.025" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7562 -->
+  <Path Data="F1 M 245.972,1916.847 L 245.972,2290.152 C 453.115,2290.152 621.038,2123.017 621.038,1916.847 C 621.038,1916.847 621.038,1916.847 621.038,1916.847 L 245.972,1916.847 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="1978.419,576.916" EndPoint="1992.973,591.426">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="30.118,0.000,0.000,30.118,-59340.457,-15459.025" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7564 -->
+  <Path Data="F1 M 992.130,1916.847 L 992.130,2290.152 C 784.987,2290.152 617.065,2123.017 617.065,1916.847 C 617.065,1916.847 617.065,1916.847 617.065,1916.847 L 992.130,1916.847 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2113.420,576.916" EndPoint="2127.974,591.426">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-30.118,0.000,0.000,30.118,64644.560,-15459.025" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7562-2 -->
+  <Path Data="F1 M 246.930,1548.342 L 246.930,1737.247 C 351.751,1737.247 436.726,1652.671 436.726,1548.342 C 436.726,1548.342 436.726,1548.342 436.726,1548.342 L 246.930,1548.342 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="1912.528,520.846" EndPoint="1927.083,535.356">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="15.241,0.000,0.000,15.241,-28901.654,-6389.896" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7610 -->
+  <Path Data="F1 M 997.772,1548.342 L 997.772,1737.247 C 892.950,1737.247 807.975,1652.671 807.975,1548.342 C 807.975,1548.342 807.975,1548.342 807.975,1548.342 L 997.772,1548.342 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2179.310,520.846" EndPoint="2193.865,535.356">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-15.241,0.000,0.000,15.241,34212.356,-6389.896" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7614 -->
+  <Path Data="F1 M 245.887,1038.018 L 245.887,1227.095 C 350.078,1227.095 434.542,1142.442 434.542,1038.018 C 434.542,1038.018 434.542,1038.018 434.542,1038.018 L 245.887,1038.018 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="1911.721,520.948" EndPoint="1926.275,535.458">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="15.149,0.000,0.000,15.255,-28715.126,-6908.972" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7616 -->
+  <Path Data="F1 M 992.213,1038.018 L 992.213,1227.095 C 888.022,1227.095 803.558,1142.442 803.558,1038.018 C 803.558,1038.018 803.558,1038.018 803.558,1038.018 L 992.213,1038.018 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2180.117,520.948" EndPoint="2194.672,535.458">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-15.149,0.000,0.000,15.255,34019.226,-6908.972" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7562-4 -->
+  <Path Data="F1 M 1200.614,1519.190 L 1200.614,1713.525 C 1490.248,1713.525 1725.043,1626.519 1725.043,1519.191 C 1725.043,1519.191 1725.043,1519.190 1725.043,1519.190 L 1200.614,1519.190 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="1997.643,524.017" EndPoint="2012.198,538.527">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="42.112,0.000,0.000,15.679,-82924.561,-6696.910" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/path7668 -->
+  <Path Data="F1 M 3130.179,1519.190 L 3130.179,1713.525 C 2840.546,1713.525 2605.751,1626.519 2605.751,1519.191 C 2605.751,1519.191 2605.751,1519.190 2605.751,1519.190 L 3130.179,1519.190 Z">
+    <Path.Fill>
+      <LinearGradientBrush MappingMode="Absolute" StartPoint="2094.195,524.017" EndPoint="2108.749,538.527">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop Offset="0.00" Color="#ffffff00"/>
+          <GradientStop Offset="1.00" Color="#fff0df79"/>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix="-42.112,0.000,0.000,15.679,91321.354,-6696.910" />
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Path.Fill>
+  </Path>
+
+  <!-- svg6624/layer1/rect7196 -->
+  <Path StrokeThickness="0.0" Stroke="#ff030303" StrokeMiterLimit="1.0" Fill="#ffc77036" Data="F1 M 48.194,981.413 L 1057.328,981.413 C 1084.024,981.413 1105.517,994.057 1105.517,1009.759 C 1105.517,1025.462 1084.024,1038.106 1057.328,1038.106 L 48.194,1038.106 C 21.497,1038.106 0.005,1025.462 0.005,1009.759 C 0.005,994.057 21.497,981.413 48.194,981.413 Z"/>
+
+  <!-- svg6624/layer1/rect5080 -->
+  <Path Fill="#ffc77036" Data="F1 M 1199.996,900.201 L 99.628,902.554 L 41.862,959.970 L 4.720,996.887 L 4.720,1017.386 L 1105.903,1017.386 L 1199.996,900.201 Z"/>
+
+  </Canvas>
+
+  </Canvas>
+</Canvas>
+</Viewbox>

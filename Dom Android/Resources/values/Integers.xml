@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="Simson_Ustawienia_Padding_LR">20dp</dimen>
+  <dimen name="Simson_Ustawienia_Layout_Top">7dp</dimen>
+</resources>

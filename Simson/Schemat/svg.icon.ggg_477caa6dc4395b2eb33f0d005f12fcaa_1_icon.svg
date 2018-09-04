@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns="http://www.w3.org/2000/svg"  gorn="0" height="69.683525" viewBox="0 0 244.05697 160.27211" width="106.11172" id="svg17" version="1.1">
+    <desc >
+        <referenceFile >Lamp_symbol3.svg</referenceFile>
+    </desc>
+    <metadata  id="metadata23">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work rdf:about="" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs  id="defs21"/>
+    <g  transform="translate(-17.971515,-22)">
+        <g >
+            <g >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <g  gorn="0.3.0.0.0.0.0.0.0" id="line">
+                                    <line  gorn="0.3.0.0.0.0.0.0.0.0" x1="20" y2="60" x2="104" stroke-width="4" y1="60" stroke="#000000" style="stroke-linecap:round" id="line_1"/>
+                                    <g  transform="translate(156)">
+                                        <g >
+                                            <g >
+                                                <g >
+                                                    <g >
+                                                        <g >
+                                                            <g >
+                                                                <g >
+                                                                    <line  gorn="0.3.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0" x1="20" y2="60" x2="104" stroke-width="4" y1="60" stroke="#000000" style="stroke-linecap:round" id="line_2"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <circle  gorn="0.4" cy="38" r="36" stroke-width="4" cx="122.02849" stroke="#000000" fill="none" id="circle"/>
+    <g  transform="translate(-17.971515,-22)">
+        <g >
+            <g >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <g  gorn="0.5.0.0.0.0.0.0.0" id="cross">
+                                    <line  gorn="0.5.0.0.0.0.0.0.0.0" x1="165" y2="85" x2="115" stroke-width="4" y1="35" stroke="#000000" style="stroke-linecap:round" id="cross_1"/>
+                                    <g  transform="matrix(-1,0,0,1,280,0)">
+                                        <g >
+                                            <g >
+                                                <g >
+                                                    <g >
+                                                        <g >
+                                                            <g >
+                                                                <g >
+                                                                    <line  gorn="0.5.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0" x1="165" y2="85" x2="115" stroke-width="4" y1="35" stroke="#000000" style="stroke-linecap:round" id="cross_2"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g  transform="translate(72.850013,70.679887)">
+        <g >
+            <g >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <g  gorn="0.6.0.0.0.0.0.0.0" id="line-7">
+                                    <line  gorn="0.6.0.0.0.0.0.0.0.0" x1="49.150139" y2="87.563736" x2="49.150139" stroke-width="4" y1="3.5637412" stroke="#000000" style="stroke-linecap:round" id="line_1-8"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

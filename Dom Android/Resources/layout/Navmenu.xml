@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:myapp="http://schemas.android.com/apk/res-auto"
+      >
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/Brama"
+      myapp:showAsAction="never"
+      android:title="Brama Wjazdowa" />
+    <item
+      android:id="@+id/Biurko"
+      myapp:showAsAction="never"
+
+      android:title="Biurko" />
+
+    <item
+      android:id="@+id/Simson"
+      myapp:showAsAction="never"
+
+      android:title="Simson" /> 
+    
+    <item
+      android:id="@+id/Empty"
+      myapp:showAsAction="never"
+
+      android:title="Empty" />
+  </group>
+
+  <item android:title="Sub items">
+    <menu>
+      <item
+        android:title="Sub item 1" />
+      <item
+        android:title="Sub item 2" />
+    </menu>
+  </item>
+</menu>

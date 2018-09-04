@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:text="Połącz z siecią WiFi"
+        android:id="@+id/polacz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dp"
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57.5dp"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Otwórz"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:id="@+id/otworz" />
+        <Button
+            android:text="Zamknij"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:id="@+id/zamknij" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="55.0dp"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:text="Stop"
+            android:id="@+id/stop"
+            android:layout_width="180.0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tekst"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false" />
+</LinearLayout>

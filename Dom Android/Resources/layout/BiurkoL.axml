@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ProgressBar
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConnectProgressBar"
+        android:indeterminate="true"
+        android:backgroundTint="#00000000"
+        android:theme="@style/Custom_pb" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:text="Jasność"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:max="100"
+            android:id="@+id/seekA" />
+        <TextView
+            android:text="Paleta RGB"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekA"
+            android:id="@+id/textView2"
+            android:layout_marginTop="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:id="@+id/rlab">
+            <TextView
+                android:text="R"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:max="255"
+                android:id="@+id/seekR" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlab"
+            android:id="@+id/glab">
+            <TextView
+                android:text="G"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:max="255"
+                android:id="@+id/seekG" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/glab"
+            android:id="@+id/blab">
+            <TextView
+                android:text="B"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:max="255"
+                android:id="@+id/seekB" />
+        </LinearLayout>
+        <Switch
+            android:layout_below="@id/blab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Klawiatura"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp" />
+        <Switch
+            android:layout_below="@id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gorna półka"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <Switch
+            android:layout_below="@id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dolna półka"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <Switch
+            android:layout_below="@id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p4"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gorna szafka"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <Switch
+            android:layout_below="@id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p5"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dolna szafka"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <Switch
+            android:layout_below="@id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p6"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tył"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+    </RelativeLayout>
+</FrameLayout>

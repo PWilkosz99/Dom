@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- Inherit from the light Material Theme -->  
+  <style name="Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customizations go here -->
+    <item name="colorPrimary">#3498DB</item> 
+    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="android:statusBarColor">#3498DB</item>
+    
+    <!-- Tooll bar y-->
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+
+  </style>
+
+  
+  <!-- Kolor wiodący -->
+  <color name="main_color">#3498DB</color>
+
+ <!-- Progress bar-->
+
+  <style name="Custom_pb" parent="Theme.AppCompat.Light">
+   <item  name="colorAccent">#3498DB</item> 
+  </style>
+
+  <style name="Custom_pb2" parent="Theme.AppCompat.Light">
+    <item  name="colorAccent">#ffffa500</item>
+  </style>
+  
+</resources>

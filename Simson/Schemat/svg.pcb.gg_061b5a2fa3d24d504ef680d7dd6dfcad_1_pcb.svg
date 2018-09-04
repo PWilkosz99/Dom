@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg"  height="0.300931in" viewBox="0 0 10.7032 7.64365" width="0.421384in" y="0in" x="0in" baseProfile="tiny" version="1.2">
+    <desc >
+        <referenceFile >sparkfun-led_led10mm_pcb.svg</referenceFile>
+    </desc>
+    <g  gorn="0.1" id="copper1">
+        <circle  gorn="0.1.0" cy="5.54205" r="1.525" stroke-width="0.65" cx="7.6416" stroke="#F7BD13" fill="none" id="connector0pad" connectorname="A"/>
+        <circle  gorn="0.1.1" cy="5.54205" r="1.525" stroke-width="0.65" cx="2.5616" stroke="#F7BD13" fill="none" id="connector1pad" connectorname="C"/>
+        <path  stroke-width="0" stroke="none" fill="#F7BD13" d="m0.7116,3.69205 3.7,0 0,3.7 -3.7,0 0,-3.7zM1.3616,5.54205a1.2,1.2 0 1 0 2.4,0 1.2,1.2 0 1 0 -2.4,0z&#xa;"/>
+        <g  gorn="0.1.3" id="copper0">
+            <circle  gorn="0.1.3.0" cy="5.54205" r="1.525" stroke-width="0.65" cx="7.6416" stroke="#F7BD13" fill="none" id="connector0pad" connectorname="A"/>
+            <circle  gorn="0.1.3.1" cy="5.54205" r="1.525" stroke-width="0.65" cx="2.5616" stroke="#F7BD13" fill="none" id="connector1pad" connectorname="C"/>
+            <path  stroke-width="0" stroke="none" fill="#F7BD13" d="m0.7116,3.69205 3.7,0 0,3.7 -3.7,0 0,-3.7zM1.3616,5.54205a1.2,1.2 0 1 0 2.4,0 1.2,1.2 0 1 0 -2.4,0z&#xa;"/>
+        </g>
+    </g>
+    <g  gorn="0.2" id="silkscreen">
+        <path  stroke-width="0.2032" class="other" stroke="#f0f0f0" fill="none" d="M0.1016,7.54205 A5.44045,5.44045 0 1 0 0.1016,3.54205"/>
+        <line  stroke-linecap="round" y2="7.54205" x1="0.1016" x2="0.1016" stroke-width="0.2032" class="other" y1="3.54205" stroke="#f0f0f0"/>
+    </g>
+</svg>
