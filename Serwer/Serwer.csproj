@@ -30,7 +30,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\ARM\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;SRV</DefineConstants>
     <NoWarn>;2008</NoWarn>
     <DebugType>full</DebugType>
     <PlatformTarget>ARM</PlatformTarget>
@@ -51,11 +51,16 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\Shared\Crypt.cs">
+      <Link>Podzespoły\Crypt.cs</Link>
+    </Compile>
+    <Compile Include="..\Shared\Data.cs">
+      <Link>Data.cs</Link>
+    </Compile>
     <Compile Include="Client.cs" />
     <Compile Include="Podzespoły\Biurko.cs" />
     <Compile Include="Podzespoły\Brama.cs" />
     <Compile Include="Podzespoły\Commands.cs" />
-    <Compile Include="Podzespoły\Crypt.cs" />
     <Compile Include="Podzespoły\Log.cs" />
     <Compile Include="Podzespoły\Event.cs" />
     <Compile Include="StartupTask.cs" />
@@ -103,12 +108,12 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="SQLite.UWP.2015, Version=3.22.0">
-      <Name>SQLite for Universal Windows Platform</Name>
-    </SDKReference>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <SDKReference Include="SQLite.UWP.2015, Version=3.24.0">
+      <Name>SQLite for Universal Windows Platform</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '15.0' ">
     <VisualStudioVersion>15.0</VisualStudioVersion>

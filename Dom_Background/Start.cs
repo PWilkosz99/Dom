@@ -9,14 +9,15 @@ using Windows.Networking.Sockets;
 using Windows.Storage.Streams;
 using static Dom_Background.Commands;
 
+
 namespace Dom_Background
 {
     public sealed class Start : IBackgroundTask
     {
         static Windows.Foundation.Collections.IPropertySet AppData = Windows.Storage.ApplicationData.Current.RoamingSettings.Values;  // Access roaming chce
         private const string socketId = "SampleSocket";
-        string hostname = "192.168.1.8";
-        string port = "80";
+        string hostname = Data.SerwerIp;
+        string port = Data.SerwerPort.ToString();
 
         public async void Run(IBackgroundTaskInstance taskInstance)
         {

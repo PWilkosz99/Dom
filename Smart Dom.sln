@@ -118,6 +118,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temperatura CO", "Temperatu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp_3.0", "Temperatura CO\ESP\Esp.vcxproj", "{8F59A315-5248-41CA-97E4-FCC5C006B993}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{08098DF3-C7AC-4E6D-BC15-38BDA180D061}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\Crypt.cs = Shared\Crypt.cs
+		Shared\Data.cs = Shared\Data.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -461,6 +467,7 @@ Global
 		{D1129163-2F7B-4C32-9B8D-1D73B7EA6013} = {97E36BF9-32FE-4DDA-B6E6-940B13B4ABD2}
 		{F54A4E76-1BC0-48DD-8F78-372FFCA6E966} = {97E36BF9-32FE-4DDA-B6E6-940B13B4ABD2}
 		{8F59A315-5248-41CA-97E4-FCC5C006B993} = {FF16EADE-5305-428A-A2A0-6AE7BC0D47E9}
+		{08098DF3-C7AC-4E6D-BC15-38BDA180D061} = {97E36BF9-32FE-4DDA-B6E6-940B13B4ABD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFBDFF08-1513-4C1D-8D6A-8019DD75F277}

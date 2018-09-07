@@ -7,8 +7,8 @@
     <ProjectGuid>{B7CD3734-528E-458B-9AE0-DA65BBCF3ED8}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dom</RootNamespace>
-    <AssemblyName>Dom</AssemblyName>
+    <RootNamespace>Dom2</RootNamespace>
+    <AssemblyName>Dom2</AssemblyName>
     <DefaultLanguage>pl-PL</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
@@ -22,11 +22,6 @@
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
     <RuntimeIdentifiers>win10-arm;win10-arm-aot;win10-x86;win10-x86-aot;win10-x64;win10-x64-aot</RuntimeIdentifiers>
-    <PackageCertificateThumbprint>C16D561324AA2B47B500308E4E5A649A322DE7CE</PackageCertificateThumbprint>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -53,12 +48,6 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Shared\Crypt.cs">
-      <Link>Crypt.cs</Link>
-    </Compile>
-    <Compile Include="..\Shared\Data.cs">
-      <Link>Data.cs</Link>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -70,9 +59,13 @@
     <Compile Include="Podzespoły\Commands.cs" />
     <Compile Include="UI\NavMenuItem.cs" />
     <Compile Include="Podzespoły\Biurko.cs" />
+    <Compile Include="Podzespoły\Crypt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\TileNotify.cs" />
     <Compile Include="UI\ToastNotify.cs" />
+    <Compile Include="Views\Bramaold.xaml.cs">
+      <DependentUpon>Bramaold.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
@@ -95,8 +88,6 @@
     <Content Include="Assets\BadgeLogo.scale-150.png" />
     <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\BadgeLogo.scale-400.png" />
-    <Content Include="Assets\Biurko.png" />
-    <Content Include="Assets\Brama.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
@@ -160,6 +151,10 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Page>
+    <Page Include="Views\Bramaold.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\SettingsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -180,12 +175,6 @@
     <PackageReference Include="PCLCrypto">
       <Version>2.0.147</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Dom_Background\Dom_Background.csproj">
-      <Project>{69e2e41a-3022-4c6b-ac12-e8dd1fcd2d7d}</Project>
-      <Name>Dom_Background</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -29,7 +29,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
+    <DefineConstants>DEBUG;ANDROID</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
@@ -163,6 +163,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Shared\Crypt.cs">
+      <Link>Podzespoły\Crypt.cs</Link>
+    </Compile>
+    <Compile Include="..\Shared\Data.cs">
+      <Link>Data.cs</Link>
+    </Compile>
     <Compile Include="DomBroadcastReceiver.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Fragments\NButton.cs" />
@@ -174,7 +180,6 @@
     <Compile Include="Fragments\Sun.cs" />
     <Compile Include="DemoIntentService.cs" />
     <Compile Include="Podzespoły\Commands.cs" />
-    <Compile Include="Podzespoły\Crypt.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

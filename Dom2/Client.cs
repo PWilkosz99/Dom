@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using Dom_Background;
 
 namespace Dom
 {
@@ -42,7 +43,7 @@ namespace Dom
                     ConnectedEvent?.Invoke(false);
                     try
                     {
-                        await client.ConnectAsync("192.168.1.8", 80);
+                        await client.ConnectAsync(Data.SerwerIp, Data.SerwerPort);
                         Stream = client.GetStream();
                         ReviveAsync();
                         Debug.WriteLine("Nawiązano połączenie z Serwerem");

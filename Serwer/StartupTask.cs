@@ -17,7 +17,6 @@ using Windows.System.Threading;
 
 
 
-
 // The Background Application template is documented at http://go.microsoft.com/fwlink/?LinkID=533884&clcid=0x409
 
 namespace Serwer
@@ -26,7 +25,7 @@ namespace Serwer
     {
 
         private Dictionary<int, Client> AllClients = new Dictionary<int, Client>();
-        private TcpListener Serwer = new TcpListener(IPAddress.Parse("192.168.1.8"), 80);
+        private TcpListener Serwer = new TcpListener(IPAddress.Parse(Data.SerwerIp), Data.SerwerPort);
 
         public void Run(IBackgroundTaskInstance taskInstance)
         {

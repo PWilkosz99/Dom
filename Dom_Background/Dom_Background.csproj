@@ -112,9 +112,14 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Shared\Crypt.cs">
+      <Link>Crypt.cs</Link>
+    </Compile>
+    <Compile Include="..\Shared\Data.cs">
+      <Link>Data.cs</Link>
+    </Compile>
     <Compile Include="UI\BadgeNotify.cs" />
     <Compile Include="Commands.cs" />
-    <Compile Include="Crypt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Start.cs" />
     <Compile Include="UI\TileNotify.cs" />
