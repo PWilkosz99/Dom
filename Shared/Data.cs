@@ -1,4 +1,4 @@
-﻿#define ALT // alternatywne dane
+﻿//#define ALT // alternatywna konfiguracja
 
 using System;
 
@@ -16,8 +16,8 @@ namespace Dom_android
         private static string _serwerIp = "192.168.43.163";
         private static int _serwerPort = 80;
 #else
-        public static string _serwerIp = "192.168.1.4";
-        public static int _serwerPort = 80;
+        private static string _serwerIp = "192.168.1.8";
+        private static int _serwerPort = 80;
 #endif
         public static string SerwerIp { get => _serwerIp; }
         public static int SerwerPort { get => _serwerPort;}
