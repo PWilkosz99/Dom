@@ -1,7 +1,4 @@
 ﻿
-//using SQLitePCL;
-
-using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,21 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
+using Microsoft.Data.Sqlite;
 
 
 namespace SerwerRoot.Podzespoły
 {
-    class Event
+    public static class Event
     {
         /// <summary>
         /// Baza
         /// </summary>
-        private static SQLiteConnection Baza;
-
-        /// <summary>
-        /// Lokalizacja
-        /// </summary>
-        private static string SqlPath => Path.Combine(ApplicationData.Current.LocalFolder.Path, "Rejestr.db");
+        static SqliteConnection db = new SqliteConnection("Filename=Rejestr.db");
 
         /// <summary>
         /// Łącznie z bazą
@@ -33,14 +26,27 @@ namespace SerwerRoot.Podzespoły
         {
             try
             {
-                Baza = new SQLiteConnection(SqlPath);
+                db.Open();
+
             }
-            catch (Exception e)
+            catch (SqliteException e)
             {
-                Log.Write(e.Message);
-                Debug.WriteLine(e.Message);
+                Log.Write("Bład bazy banych, kod: "+ e.SqliteErrorCode + "; " + e.Message);
+                Debug.WriteLine("Bład bazy banych, kod: " + e.SqliteErrorCode + "; " + e.Message);
             }
 
+            String tableCommand = @"CREATE TABLE IF NOT EXISTS Dom (
+                                    Id INTEGER NOT NULL
+                                    PRIMARY KEY AUTOINCREMENT,
+                                    Pochodzenie TEXT    NOT NULL,
+                                    Data        DATE NOT NULL,
+                                    Podmiot TEXT,
+                                    Zdarzenie   TEXT NOT NULL,
+                                    Opis TEXT    NOT NULL)";
+
+            SqliteCommand createTable = new SqliteCommand(tableCommand, db);
+
+            createTable.ExecuteReader();
         }
 
         /// <summary>
@@ -54,18 +60,20 @@ namespace SerwerRoot.Podzespoły
         {
             try
             {
-                ISQLiteStatement command = Baza.Prepare("INSERT INTO Dom(Pochodzenie, Data, Podmiot,Zdarzenie, Opis)  VALUES(?, ?, ?, ?, ?)");
-                command.Bind(1, Pochodzenie);
-                command.Bind(2, DateTime.Now.ToString());
-                command.Bind(3, Podmiot);
-                command.Bind(4, Zdarzenie);
-                command.Bind(5, Opis);
+                db.Open();
 
-                command.Step();
+                SqliteCommand insertCommand = new SqliteCommand();
+                insertCommand.Connection = db;
+
+                insertCommand.CommandText = "INSERT INTO Dom(Pochodzenie, Data, Podmiot, Zdarzenie, Opis) VALUES ('" + Pochodzenie + "', '" + DateTime.Now.ToString() + "', '" + Podmiot + "', '" + Zdarzenie + "', '" + Opis + "')";
+                
+                insertCommand.ExecuteReader();
+                db.Close();
             }
-            catch (Exception e)
+            catch (SqliteException e)
             {
-                Log.Write(e.Message);
+                Log.Write("Bład bazy banych, kod: " + e.SqliteErrorCode + "; " + e.Message);
+                Debug.WriteLine("Bład bazy banych, kod: " + e.SqliteErrorCode + "; " + e.Message);
             }
 
         }
@@ -80,18 +88,47 @@ namespace SerwerRoot.Podzespoły
         {
             try
             {
-                ISQLiteStatement command = Baza.Prepare("INSERT INTO Dom(Pochodzenie, Data, Zdarzenie, Opis)  VALUES(?, ?, ?, ?)");
-                command.Bind(1, Pochodzenie);
-                command.Bind(2, DateTime.Now.ToString());
-                command.Bind(3, Zdarzenie);
-                command.Bind(4, Opis);
+                db.Open();
 
-                command.Step();
+                SqliteCommand insertCommand = new SqliteCommand();
+                insertCommand.Connection = db;
+
+                insertCommand.CommandText = "INSERT INTO Dom(Pochodzenie, Data, Zdarzenie, Opis) VALUES ('" + Pochodzenie + "', '" + DateTime.Now.ToString() + "', '" + Zdarzenie + "', '" + Opis + "')";
+
+                insertCommand.ExecuteReader();
+                db.Close();
             }
-            catch (Exception e)
+            catch (SqliteException e)
             {
-                Log.Write(e.Message);
-            }            
-        }                       
+                Log.Write("Bład bazy banych, kod: " + e.SqliteErrorCode + "; " + e.Message);
+                Debug.WriteLine("Bład bazy banych, kod: " + e.SqliteErrorCode + "; " + e.Message);
+            }
+        }
+                
+        public static List<String> GetData()
+        {
+            List<String> entries = new List<string>();
+
+            using (SqliteConnection db =
+                new SqliteConnection("Filename=Rejestr.db"))
+            {
+                db.Open();
+
+                SqliteCommand selectCommand = new SqliteCommand
+                    ("SELECT ID, Zdarzenie from Dom", db);
+
+                SqliteDataReader query = selectCommand.ExecuteReader();
+
+                while (query.Read())
+                {
+                    entries.Add(query.GetString(0) + ": " + query.GetString(1));
+                }
+
+                db.Close();
+            }
+
+            return entries;
+        }
+                              
     }
 }

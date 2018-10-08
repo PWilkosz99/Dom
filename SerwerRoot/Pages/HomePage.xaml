@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="Home" FontSize="300" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <StackPanel>
+            <TextBox Name="Input_Box"></TextBox>
+            <Button Click="AddData">Add</Button>
+            <ListView Name="Output">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>

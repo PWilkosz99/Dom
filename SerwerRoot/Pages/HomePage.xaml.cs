@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using SerwerRoot.Podzespoły;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +27,15 @@ namespace SerwerRoot.Pages
         public HomePage()
         {
             this.InitializeComponent();
+            Event.Begin();
+            Output.ItemsSource = Event.GetData();
+        }
+
+        private void AddData(object sender, RoutedEventArgs e)
+        {
+           // Event.AddData(Input_Box.Text);
+
+           // Output.ItemsSource = Event.GetData();
         }
     }
 }
