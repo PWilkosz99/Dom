@@ -33,7 +33,7 @@ namespace SerwerRoot.Podzespoły
             {
                 AutoFlush = true,
             };
-            BeginWorker.Set();
+           // BeginWorker.Set();
         }
 
         /// <summary>
@@ -43,15 +43,16 @@ namespace SerwerRoot.Podzespoły
         public static async void Write(string text)
         {
             DateTime date = DateTime.Now;
-            BeginWorker.WaitOne();    
+           // BeginWorker.WaitOne();    
             try
             {
                 sw.WriteLine(date + ": " +  text);               
             }
             catch (Exception e)
             {
-                BeginAsync();
-                Write("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
+                Console.WriteLine("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
+               // BeginAsync();
+               // Write("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
             }     
         }
 
