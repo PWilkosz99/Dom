@@ -29,6 +29,13 @@ namespace SerwerRoot
         private Dictionary<int, Client> AllClients = new Dictionary<int, Client>();
         private TcpListener Serwer = new TcpListener(IPAddress.Parse(Dom_Background.Data.SerwerIp), Dom_Background.Data.SerwerPort);
 
+        Dictionary<ModulesId, ModuleBody> Modules = new Dictionary<ModulesId, ModuleBody>();
+
+        public enum ModulesId : short
+        {
+            Brama,
+            Biurko,
+        }
 
         /// <summary>
         /// Inicjuje pojedynczy obiekt aplikacji. Jest to pierwszy wiersz napisanego kodu
@@ -39,6 +46,16 @@ namespace SerwerRoot
             this.InitializeComponent();
             this.Suspending += OnSuspending;
 
+
+            
+
+            Modules.Add(Brama.id, new Brama());
+            Modules.Add(Biurko.id, new Biurko());
+
+
+
+
+
             // Debug Logi
             Log.BeginAsync();
 
@@ -47,12 +64,14 @@ namespace SerwerRoot
 
             //Start modułów
             Event.Begin();
-            Biurko.BeginAsync();
-            Brama.BeginAsync();
+
+
+         //   Biurko.BeginAsync();
+          //  Brama.BeginAsync();
 
             //Start serwera
-            Serwer.Start();
-            SerwerWorkAsync();
+         //   Serwer.Start();
+           // SerwerWorkAsync();
             Log.Write("Uruchomiono Serwer");
             System.Diagnostics.Debug.WriteLine("Uruchomiono Serwer");
 

@@ -11,8 +11,17 @@ using Windows.Storage.Streams;
 
 namespace SerwerRoot.Podzespoły
 {
-    class Biurko
+    class Biurko : ModuleBody
     {
+        public static App.ModulesId id = App.ModulesId.Biurko;
+
+        public override void Start()
+        {
+            Title = "Biurko Led";
+            base.Start();
+            BeginAsync();
+        }
+
         /// <summary>
         /// Dane o kolorze oraz jasności
         /// </summary>

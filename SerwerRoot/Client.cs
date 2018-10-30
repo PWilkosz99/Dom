@@ -38,7 +38,7 @@ namespace SerwerRoot
 
             Stream = HClient.GetStream();
 
-            Brama.BramaWrite += BramaWrite;
+            //Brama.BramaWrite += BramaWrite;
 
             Biurko.BiurkoWrite += BiurkoWrite;
 
@@ -104,7 +104,7 @@ namespace SerwerRoot
             {
                 case Commands.Moduł.Brama:
                     {
-                        Brama.PrzetworzZadanie(_Code);
+                        //Brama.PrzetworzZadanie(_Code);
                         break;
                     }
                 case Commands.Moduł.Biurko:
@@ -173,7 +173,7 @@ namespace SerwerRoot
         /// </summary>
         public void Close()
         {
-            Brama.BramaWrite -= BramaWrite;
+            //Brama.BramaWrite -= BramaWrite;
             Biurko.BiurkoWrite -= BiurkoWrite;
             Stream.Dispose();
             client.Dispose();

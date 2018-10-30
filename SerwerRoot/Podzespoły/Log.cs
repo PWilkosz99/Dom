@@ -37,10 +37,11 @@ namespace SerwerRoot.Podzespoły
         }
 
         /// <summary>
-        /// Wypiz log do pliku
+        /// Wypisz log do pliku
         /// </summary>
         /// <param name="text">Tekst</param>
-        public static async void Write(string text)
+        /// <param name="PrintToConsole">Czy napisac do konsoli</param>
+        public static async void Write(string text, bool PrintToConsole)
         {
             DateTime date = DateTime.Now;
            // BeginWorker.WaitOne();    
@@ -50,11 +51,27 @@ namespace SerwerRoot.Podzespoły
             }
             catch (Exception e)
             {
-                Console.WriteLine("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
+                Debug.WriteLine("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
                // BeginAsync();
                // Write("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
-            }     
+            }
+#if DEBUG
+            if(PrintToConsole)
+            {
+                Debug.WriteLine(text);
+                return;
+            }
+#else
+            return;
+#endif
         }
+
+        /// <summary>
+        /// Wypisz log do pliku
+        /// </summary>
+        /// <param name="text">Tekst</param>
+        public static async void Write(string text) => Write(text, false);
+
 
 
         /// <summary>

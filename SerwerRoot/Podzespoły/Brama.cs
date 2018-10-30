@@ -11,8 +11,10 @@ using Windows.Networking;
 
 namespace SerwerRoot.Podzespoły
 {
-    class Brama
+    class Brama : ModuleBody
     {
+        public static App.ModulesId id = App.ModulesId.Brama;
+
         /// <summary>
         /// Możliwe stany bramy
         /// </summary>
@@ -28,52 +30,63 @@ namespace SerwerRoot.Podzespoły
             BrakPolaczenia = 9,
         };
 
+
+        public override void Start()
+        {
+            Title = "Brama Wjazdowa";
+            base.Start();
+            BeginAsync();
+        }
+        
+
+        
+        
         /// <summary>
         /// Zmienna przechowująca stany bramy
         /// </summary>
-        static private Stan State = Stan.BrakPolaczenia;
-        static public Stan GetState => State;
+         private Stan State = Stan.BrakPolaczenia;
+         public Stan GetState => State;
              
         /// <summary>
         /// Kody komunikacyjne do bramy
         /// </summary>
         private enum Ster : byte { otwórz = 145, zamknij = 167, stop = 155 };
-
+        
         /// <summary>
         /// Kto coś chciał
         /// </summary>
-        static public Commands.Podmiot PodmiotValue = Commands.Podmiot.Niezidentyfikowany;
+         public Commands.Podmiot PodmiotValue = Commands.Podmiot.Niezidentyfikowany;
 
         /// <summary>
         /// Adres Ip
         /// </summary>
-        static private string Adress { get { return "192.168.1.4"; } }
+         private string Adress { get { return "192.168.1.4"; } }
 
         /// <summary>
         /// Port
         /// </summary>
-        static private int Port { get { return 80; } }
+         private int Port { get { return 80; } }
 
-        static private TcpClient Client = new TcpClient();
-        static  NetworkStream Stream;
+         private TcpClient Client = new TcpClient();
+          NetworkStream Stream;
 
         /// <summary>
         /// Zgłoszenie do wysłania danych
         /// </summary>
         /// <param name="NowyStan"></param>
         public delegate void BramaWriteEventHandler(Stan AktualnyStanBramy);
-        public static event BramaWriteEventHandler BramaWrite;
+        public  event BramaWriteEventHandler BramaWrite;
 
         /// <summary>
         /// Blokada przed czynnościami na stream ie podczas pracy w funkcji BeginAsync
         /// </summary>
-        static ManualResetEvent BeginWorker = new ManualResetEvent(false);
+         ManualResetEvent BeginWorker = new ManualResetEvent(false);
 
         /// <summary>
         /// Połącz z bramą WiFi
         /// </summary>
-        static public async void BeginAsync()
-        {            
+         public async void BeginAsync()
+        {
             try
             {
                 Client = new TcpClient();
@@ -105,7 +118,7 @@ namespace SerwerRoot.Podzespoły
         /// <summary>
         /// Obsługa komunikatów przychodzących z bramy
         /// </summary>
-        static private async void ReciveAsync()
+         private async void ReciveAsync()
         {
             while (true)
             {
@@ -119,11 +132,11 @@ namespace SerwerRoot.Podzespoły
 
                     if (Text == "p")
                     {
-                        Brama.PodmiotValue = Commands.Podmiot.Przycisk;
+                        PodmiotValue = Commands.Podmiot.Przycisk;
                     }
                     else if (Text == "r")
                     {
-                        Brama.PodmiotValue = Commands.Podmiot.Pilot;
+                        PodmiotValue = Commands.Podmiot.Pilot;
                     }
 
                     byte[] myReadBuffer = new byte[1];
@@ -174,7 +187,7 @@ namespace SerwerRoot.Podzespoły
         /// Zmiana stanu bramy
         /// </summary>
         /// <param name="value"></param>
-        static private void SetState(Stan value)
+         private void SetState(Stan value)
         {
             if (State != value)
             {
@@ -188,7 +201,7 @@ namespace SerwerRoot.Podzespoły
         /// Zmień stan na bramie
         /// </summary>
         /// <param name="code"></param>
-        static private void SendToDevice(Ster code)
+         private void SendToDevice(Ster code)
         {
             try
             {
@@ -208,7 +221,7 @@ namespace SerwerRoot.Podzespoły
         /// </summary>
         /// <param name="akcja"></param>
         /// <param name="podmiot"></param>
-        static public void PrzetworzZadanie(String[] Code)
+         public void PrzetworzZadanie(String[] Code)
         {
             PodmiotValue = (Commands.Podmiot)int.Parse(Code[0]);
             Commands.AkcjaBramy akcja = (Commands.AkcjaBramy)int.Parse(Code[2]);
@@ -244,7 +257,7 @@ namespace SerwerRoot.Podzespoły
         /// <summary>
         /// Sprawdza połączenie
         /// </summary>
-        private static async void LikeKeepAliveAsync()
+        private  async void LikeKeepAliveAsync()
         {
             try
             {
@@ -267,20 +280,20 @@ namespace SerwerRoot.Podzespoły
         /// Zapisz zminę stanu do bazdy danych SQL
         /// </summary>
         /// <param name="NowyStan"></param>
-        private static void ZmianaStanu(Brama.Stan NowyStan)
+        private  void ZmianaStanu(Brama.Stan NowyStan)
         {
-            string Podmiot = Brama.PodmiotValue.ToString();
+            string Podmiot = PodmiotValue.ToString();
 
             switch (NowyStan)
             {
                 case Brama.Stan.Otwarta:
                     {
-                        Event.Write("Brama Wjazdowa", Brama.PodmiotValue.ToString(), "Otwrto Bramę", "Brama została otwarta");
+                        Event.Write("Brama Wjazdowa", PodmiotValue.ToString(), "Otwrto Bramę", "Brama została otwarta");
                         break;
                     }
                 case Brama.Stan.Zamknięta:
                     {
-                        Event.Write("Brama Wjazdowa", Brama.PodmiotValue.ToString(), "Zamknięto Bramę", "Brama została zamknięta");
+                        Event.Write("Brama Wjazdowa", PodmiotValue.ToString(), "Zamknięto Bramę", "Brama została zamknięta");
                         break;
                     }
                 case Brama.Stan.Otwieranie:
