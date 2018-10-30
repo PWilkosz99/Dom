@@ -8,6 +8,20 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="Settings" FontSize="300" VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+       
+
+        <ListView ItemsSource="{x:Bind StuList}"
+HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="6">
+                        <ToggleSwitch x:Name="lightToggle" HorizontalAlignment="Center" />
+                        <TextBlock Text="{Binding}" FontWeight="Bold" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+       
     </Grid>
 </Page>

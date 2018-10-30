@@ -23,14 +23,14 @@ namespace SerwerRoot
     /// <summary>
     /// Zapewnia zachowanie specyficzne dla aplikacji, aby uzupełnić domyślną klasę aplikacji.
     /// </summary>
-    sealed partial class App : Application
+    sealed public partial class App : Application
     {
 
-        private Dictionary<int, Client> AllClients = new Dictionary<int, Client>();
+        Dictionary<int, Client> AllClients = new Dictionary<int, Client>();
         private TcpListener Serwer = new TcpListener(IPAddress.Parse(Dom_Background.Data.SerwerIp), Dom_Background.Data.SerwerPort);
 
-        Dictionary<ModulesId, ModuleBody> Modules = new Dictionary<ModulesId, ModuleBody>();
-
+        static public Dictionary<ModulesId, ModuleBody> Modules = new Dictionary<ModulesId, ModuleBody>();
+        
         public enum ModulesId : short
         {
             Brama,
@@ -47,11 +47,14 @@ namespace SerwerRoot
             this.Suspending += OnSuspending;
 
 
-            
+           
 
             Modules.Add(Brama.id, new Brama());
             Modules.Add(Biurko.id, new Biurko());
 
+          
+
+            var ok = Modules.Values.ToList();
 
 
 

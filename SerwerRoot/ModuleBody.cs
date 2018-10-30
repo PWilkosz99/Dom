@@ -69,5 +69,11 @@ namespace SerwerRoot
         {
             Log.Write("Moduł " + Title + " zakończył pracę",true);
         }
+
+        public override string ToString()
+        {
+            return Title;
+        }
+
     }
 }
