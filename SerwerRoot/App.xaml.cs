@@ -52,6 +52,10 @@ namespace SerwerRoot
             Modules.Add(Brama.id, new Brama());
             Modules.Add(Biurko.id, new Biurko());
 
+
+            
+            //for
+
           
 
             var ok = Modules.Values.ToList();

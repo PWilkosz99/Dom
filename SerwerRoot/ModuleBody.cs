@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
-
+using Windows.UI.Xaml;
 
 namespace SerwerRoot
 {
@@ -14,20 +14,20 @@ namespace SerwerRoot
 
         ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
 
-        public bool On { get { return on; } set { localSettings.Values[Id.ToString()] = value; on = value; Change(on); } }
+        public bool On { get { return on; } set { localSettings.Values[Id.ToString()] = value; on = value;/* Change(on)*/; } }
 
         private bool on;
 
         /// <summary>
         /// Nazwa modułu
         /// </summary>
-        App.ModulesId Id;
+        public App.ModulesId Id;
         /// <summary>
         /// Tytuł w UI
         /// </summary>
         public string Title;
 
-        public ModuleBody()
+        public void ModuleBodyWork()
         {
             Object value = localSettings.Values[Id.ToString()];
             if (value == null)
@@ -48,8 +48,9 @@ namespace SerwerRoot
             }
         }
 
-        private void Change(bool on)
+        public void Change(bool on)
         {
+            On = on;
             if(on)
             {
                 Start();
@@ -74,6 +75,5 @@ namespace SerwerRoot
         {
             return Title;
         }
-
     }
 }

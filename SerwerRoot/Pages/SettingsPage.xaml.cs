@@ -25,65 +25,43 @@ namespace SerwerRoot.Pages
     {
   
 
-        List<ModuleBody> StuList = new List<ModuleBody>();
-
+        List<ModuleBody> ModulesList = App.Modules.Values.ToList();
 
         //public Dictionary<ModulesId, ModuleBody> Moduless = App.Modules
 
         public SettingsPage()
         {
             this.InitializeComponent();
-
-            StuList = App.Modules.Values.ToList();
-
-            //StuList.Add(new Students()
-            //{
-            //    ID = 1,
-            //    Name = "Ammar1"
-            //});
-            //StuList.Add(new Students()
-            //{
-            //    ID = 2,
-            //    Name = "Ammar2"
-            //});
-            //StuList.Add(new Students()
-            //{
-            //    ID = 3,
-            //    Name = "Ammar3"
-            //});
-            //StuList.Add(new Students()
-            //{
-            //    ID = 4,
-            //    Name = "Ammar4"
-            //});
-            //StuList.Add(new Students()
-            //{
-            //    ID = 5,
-            //    Name = "Ammar5"
-            //});
-
-
             
-
         }
 
-    }
+        private void lightToggle_Toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
 
-    public class Students
-    {
-        public int ID
-        {
-            get;
-            set;
+            if(toggleSwitch == null)
+            {
+                return;
+            }
+
+            ModuleBody ok = toggleSwitch.DataContext as ModuleBody;
+
+            Modules[ok.Id].Change(toggleSwitch.IsOn);
+            
         }
-        public string Name
+
+        private void lightToggle_Loaded(object sender, RoutedEventArgs e)
         {
-            get;
-            set;
-        }
-        public override string ToString()
-        {
-            return this.Name;
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+
+            if (toggleSwitch == null)
+            {
+                return;
+            }
+
+            ModuleBody ok = toggleSwitch.DataContext as ModuleBody;
+
+            toggleSwitch.IsOn = Modules[ok.Id].On;
         }
     }
 }

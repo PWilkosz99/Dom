@@ -15,9 +15,16 @@ namespace SerwerRoot.Podzespoły
     {
         public static App.ModulesId id = App.ModulesId.Biurko;
 
+        public Biurko()
+        {
+            Id = App.ModulesId.Biurko;
+            Title = "Biurko Led";
+            ModuleBodyWork();
+        }
+
         public override void Start()
         {
-            Title = "Biurko Led";
+
             base.Start();
             BeginAsync();
         }
@@ -98,13 +105,22 @@ namespace SerwerRoot.Podzespoły
         {
             BeginWorker.Reset();
 
-            Czesci.Add(Commands.CzęściBiurka.Klawiatura, new Part(Commands.CzęściBiurka.Klawiatura));
-            Czesci.Add(Commands.CzęściBiurka.GornaPolka, new Part(Commands.CzęściBiurka.GornaPolka));
-            Czesci.Add(Commands.CzęściBiurka.DolnaPolka, new Part(Commands.CzęściBiurka.DolnaPolka));
-            Czesci.Add(Commands.CzęściBiurka.GornaSzafka, new Part(Commands.CzęściBiurka.GornaSzafka));
-            Czesci.Add(Commands.CzęściBiurka.DolnaSzafka, new Part(Commands.CzęściBiurka.DolnaSzafka));
-            Czesci.Add(Commands.CzęściBiurka.Tyl, new Part(Commands.CzęściBiurka.Tyl));
-            Czesci.Add(Commands.CzęściBiurka.Dodatkowy, new Part(Commands.CzęściBiurka.Dodatkowy));
+
+            try
+            {
+                Czesci.Add(Commands.CzęściBiurka.Klawiatura, new Part(Commands.CzęściBiurka.Klawiatura));
+                Czesci.Add(Commands.CzęściBiurka.GornaPolka, new Part(Commands.CzęściBiurka.GornaPolka));
+                Czesci.Add(Commands.CzęściBiurka.DolnaPolka, new Part(Commands.CzęściBiurka.DolnaPolka));
+                Czesci.Add(Commands.CzęściBiurka.GornaSzafka, new Part(Commands.CzęściBiurka.GornaSzafka));
+                Czesci.Add(Commands.CzęściBiurka.DolnaSzafka, new Part(Commands.CzęściBiurka.DolnaSzafka));
+                Czesci.Add(Commands.CzęściBiurka.Tyl, new Part(Commands.CzęściBiurka.Tyl));
+                Czesci.Add(Commands.CzęściBiurka.Dodatkowy, new Part(Commands.CzęściBiurka.Dodatkowy));
+            }
+            catch
+            {
+                Log.Write("Kolejne wywołanie funkcji wejściowej Biurko", true);
+                return;
+            }
 
             Log.Write("Biurko Begin");
             DeviceInformationCollection DIC = await DeviceInformation.FindAllAsync(SerialDevice.GetDeviceSelector("UART0"));

@@ -11,12 +11,12 @@
 
        
 
-        <ListView ItemsSource="{x:Bind StuList}"
+        <ListView ItemsSource="{x:Bind ModulesList}"
 HorizontalAlignment="Center" VerticalAlignment="Center">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Margin="6">
-                        <ToggleSwitch x:Name="lightToggle" HorizontalAlignment="Center" />
+                        <ToggleSwitch  x:Name="lightToggle" HorizontalAlignment="Center" Toggled="lightToggle_Toggled" Loaded="lightToggle_Loaded" />
                         <TextBlock Text="{Binding}" FontWeight="Bold" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </DataTemplate>

@@ -13,6 +13,14 @@ namespace SerwerRoot.Podzespoły
 {
     class Brama : ModuleBody
     {
+        public Brama()
+        {
+            Id = App.ModulesId.Brama;
+            Title = "Brama Wjazdowa";
+            ModuleBodyWork();
+        }
+
+
         public static App.ModulesId id = App.ModulesId.Brama;
 
         /// <summary>
@@ -31,9 +39,10 @@ namespace SerwerRoot.Podzespoły
         };
 
 
+
         public override void Start()
         {
-            Title = "Brama Wjazdowa";
+
             base.Start();
             BeginAsync();
         }
