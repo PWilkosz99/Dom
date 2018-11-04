@@ -31,7 +31,7 @@ namespace SerwerRoot
 
         #region Obsługa NavView
         // List of ValueTuple holding the Navigation Tag and the relative Navigation Page 
-        private readonly IList<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
+        public readonly IList<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
 {
     ("home", typeof(Pages.HomePage)),
     ("logs", typeof(Pages.LogPage)),

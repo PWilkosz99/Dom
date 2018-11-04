@@ -22,9 +22,21 @@ namespace SerwerRoot.Pages
     /// </summary>
     public sealed partial class LogPage : Page
     {
+
+        private static List<string> LogListWorker = new List<string>();
+
+        private List<string> LogList = new List<string>();
+
         public LogPage()
         {
             this.InitializeComponent();
+            LogList = LogListWorker;
         }
+
+        public static void AddLog(string text)
+        {
+            LogListWorker.Add(text);
+        }
+
     }
 }

@@ -20,6 +20,7 @@ namespace SerwerRoot.Podzespoły
             ModuleBodyWork();
         }
 
+        Task BramaTask;
 
         public static App.ModulesId id = App.ModulesId.Brama;
 
@@ -42,18 +43,31 @@ namespace SerwerRoot.Podzespoły
 
         public override void Start()
         {
-
+            if(BramaTask != null)
+            {
+                return;
+            }
+            BramaTask = new Task(BeginAsync);
+            BramaTask.Start();
             base.Start();
-            BeginAsync();
         }
-        
 
-        
-        
+        public override void Stop()
+        {   
+            if(BramaTask == null)
+            {
+                return;
+            }
+            BramaTask.Dispose();
+            base.Stop();
+        }
+
+
+
         /// <summary>
         /// Zmienna przechowująca stany bramy
         /// </summary>
-         private Stan State = Stan.BrakPolaczenia;
+        private Stan State = Stan.BrakPolaczenia;
          public Stan GetState => State;
              
         /// <summary>
@@ -94,7 +108,7 @@ namespace SerwerRoot.Podzespoły
         /// <summary>
         /// Połącz z bramą WiFi
         /// </summary>
-         public async void BeginAsync()
+        public async void BeginAsync()
         {
             try
             {
@@ -106,7 +120,7 @@ namespace SerwerRoot.Podzespoły
                 }
 
                 SetState(Stan.BrakPolaczenia);
-                Log.Write("Brama Begin");
+              //  Log.Write("Brama Begin");
                 Debug.WriteLine("Łączenie z bramą");
 
                 await Client.ConnectAsync(Adress, Port);

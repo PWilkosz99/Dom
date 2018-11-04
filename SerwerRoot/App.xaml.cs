@@ -45,21 +45,10 @@ namespace SerwerRoot
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-
-
            
 
             Modules.Add(Brama.id, new Brama());
             Modules.Add(Biurko.id, new Biurko());
-
-
-            
-            //for
-
-          
-
-            var ok = Modules.Values.ToList();
-
 
 
 
@@ -72,13 +61,9 @@ namespace SerwerRoot
             //Start modułów
             Event.Begin();
 
-
-         //   Biurko.BeginAsync();
-          //  Brama.BeginAsync();
-
             //Start serwera
-         //   Serwer.Start();
-           // SerwerWorkAsync();
+            Serwer.Start();
+            SerwerWorkAsync();
             Log.Write("Uruchomiono Serwer");
             System.Diagnostics.Debug.WriteLine("Uruchomiono Serwer");
 
@@ -100,6 +85,7 @@ namespace SerwerRoot
                         if (!AllClients.ContainsKey(FreeIndex))
                         {
                             AllClients.Add(FreeIndex, new Client(_Client, FreeIndex));
+                            Log.Write("Nowy klient id: " + FreeIndex);
                             break;
                         }
                         FreeIndex++;

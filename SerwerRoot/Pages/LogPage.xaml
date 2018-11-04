@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="Log" FontSize="300" VerticalAlignment="Center" HorizontalAlignment="Center" />
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="30,30,30,30">
+        <ListView ItemsSource="{x:Bind LogList}"
+        />
     </Grid>
 </Page>

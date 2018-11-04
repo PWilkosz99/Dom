@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SerwerRoot.Pages;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -43,6 +44,9 @@ namespace SerwerRoot.Podzespoły
         /// <param name="PrintToConsole">Czy napisac do konsoli</param>
         public static async void Write(string text, bool PrintToConsole)
         {
+
+            LogPage.AddLog(text);
+
             DateTime date = DateTime.Now;
            // BeginWorker.WaitOne();    
             try
@@ -55,6 +59,8 @@ namespace SerwerRoot.Podzespoły
                // BeginAsync();
                // Write("Błąd w zapisie do log-u, lub brak wywołania funkcji Begin() " + e.Message);
             }
+
+            
 #if DEBUG
             if(PrintToConsole)
             {
@@ -79,7 +85,7 @@ namespace SerwerRoot.Podzespoły
         /// </summary>
         /// <param name="e">Exception</param>
         public static void Write(Exception e)
-        {
+        {            
             Write(e.Message);
         }
     }

@@ -15,6 +15,8 @@ namespace SerwerRoot.Podzespoły
     {
         public static App.ModulesId id = App.ModulesId.Biurko;
 
+        Task BiurkoTask;
+
         public Biurko()
         {
             Id = App.ModulesId.Biurko;
@@ -24,9 +26,23 @@ namespace SerwerRoot.Podzespoły
 
         public override void Start()
         {
-
+            if(BiurkoTask != null)
+            {
+                return;
+            }
+            BiurkoTask = new Task(BeginAsync);
+            BiurkoTask.Start();
             base.Start();
-            BeginAsync();
+        }
+
+        public override void Stop()
+        {
+            if(BiurkoTask == null)
+            {
+                return;
+            }
+            BiurkoTask.Dispose();
+            base.Stop();
         }
 
         /// <summary>
@@ -122,7 +138,7 @@ namespace SerwerRoot.Podzespoły
                 return;
             }
 
-            Log.Write("Biurko Begin");
+          //  Log.Write("Biurko Begin");
             DeviceInformationCollection DIC = await DeviceInformation.FindAllAsync(SerialDevice.GetDeviceSelector("UART0"));
             SerialDevice serialPort;
             try
