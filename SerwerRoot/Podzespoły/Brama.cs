@@ -15,12 +15,11 @@ namespace SerwerRoot.Podzespoły
     {
         public Brama()
         {
+
             Id = App.ModulesId.Brama;
             Title = "Brama Wjazdowa";
             ModuleBodyWork();
         }
-
-        Task BramaTask;
 
         public static App.ModulesId id = App.ModulesId.Brama;
 
@@ -41,27 +40,17 @@ namespace SerwerRoot.Podzespoły
 
 
 
-        public override void Start()
+        public async override void Start()
         {
-            if(BramaTask != null)
-            {
-                return;
-            }
-            BramaTask = new Task(BeginAsync);
-            BramaTask.Start();
             base.Start();
+            await BeginAsync();
         }
 
         public override void Stop()
-        {   
-            if(BramaTask == null)
-            {
-                return;
-            }
-            BramaTask.Dispose();
+        {
+            Client.Close();
             base.Stop();
         }
-
 
 
         /// <summary>
@@ -91,7 +80,7 @@ namespace SerwerRoot.Podzespoły
          private int Port { get { return 80; } }
 
          private TcpClient Client = new TcpClient();
-          NetworkStream Stream;
+         NetworkStream Stream;
 
         /// <summary>
         /// Zgłoszenie do wysłania danych
@@ -108,34 +97,42 @@ namespace SerwerRoot.Podzespoły
         /// <summary>
         /// Połącz z bramą WiFi
         /// </summary>
-        public async void BeginAsync()
+        public async Task BeginAsync()
         {
-            try
+            while (!cancellationToken.IsCancellationRequested)
             {
-                Client = new TcpClient();
-
-                if (Client.Connected)
+                try
                 {
+                    cancellationToken.ThrowIfCancellationRequested();
+                    Client = new TcpClient();
+
+                    if (Client.Connected)
+                    {
+                        return;
+                    }
+
+                    SetState(Stan.BrakPolaczenia);
+                    Debug.WriteLine("Łączenie z bramą");
+
+                    await Client.ConnectAsync(Adress, Port);
+
+                    Log.Write("Połączono z bramą");
+                    Debug.WriteLine("Połączono z bramą");
+                    Stream = Client.GetStream();
+                    ReciveAsync();
+                    LikeKeepAliveAsync();
                     return;
                 }
 
-                SetState(Stan.BrakPolaczenia);
-              //  Log.Write("Brama Begin");
-                Debug.WriteLine("Łączenie z bramą");
-
-                await Client.ConnectAsync(Adress, Port);
-
-                Log.Write("Połączono z bramą");
-                Debug.WriteLine("Połączono z bramą");
-                Stream = Client.GetStream();
-                ReciveAsync();
-                LikeKeepAliveAsync();
+                catch (OperationCanceledException)
+                {
+                    return;
+                }
+                catch(Exception e)
+                {
+                    Log.Write(e, true);
+                }
             }
-            catch (Exception e)
-            {
-                Log.Write(e);
-                BeginAsync();
-            }            
         }
 
         /// <summary>
@@ -143,10 +140,12 @@ namespace SerwerRoot.Podzespoły
         /// </summary>
          private async void ReciveAsync()
         {
-            while (true)
+            while (!cancellationToken.IsCancellationRequested)
             {
                 try
                 {
+                    cancellationToken.ThrowIfCancellationRequested();
+
                     byte[] MyReadBuffer = new byte[1];
 
                     await Stream.ReadAsync(MyReadBuffer, 0, MyReadBuffer.Length);
@@ -196,6 +195,10 @@ namespace SerwerRoot.Podzespoły
                     {
                         SetState(Stan.Awaria);
                     }
+                }
+                catch (OperationCanceledException)
+                {
+                    return;
                 }
                 catch (Exception e)
                 {
@@ -284,11 +287,16 @@ namespace SerwerRoot.Podzespoły
         {
             try
             {
-                while (true)
+                while (!cancellationToken.IsCancellationRequested)
                 {
+                    cancellationToken.ThrowIfCancellationRequested();
                     await Task.Delay(10000);
                     await Client.GetStream().WriteAsync(new byte[] { 1 }, 0, 1 );                    
                 }
+            }
+            catch (OperationCanceledException)
+            {
+                return;
             }
             catch
             {

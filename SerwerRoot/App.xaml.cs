@@ -46,14 +46,15 @@ namespace SerwerRoot
             this.InitializeComponent();
             this.Suspending += OnSuspending;
            
+            // Debug Logi
+            Log.BeginAsync();
 
             Modules.Add(Brama.id, new Brama());
             Modules.Add(Biurko.id, new Biurko());
 
 
 
-            // Debug Logi
-            Log.BeginAsync();
+
 
             // Event do oczyszczenia klienta
             Client.EndConnection += Client_EndConnection;
@@ -61,13 +62,20 @@ namespace SerwerRoot
             //Start modułów
             Event.Begin();
 
+
             //Start serwera
-            Serwer.Start();
-            SerwerWorkAsync();
-            Log.Write("Uruchomiono Serwer");
-            System.Diagnostics.Debug.WriteLine("Uruchomiono Serwer");
-
-
+            try
+            {
+                Serwer.Start();
+                SerwerWorkAsync();
+                Log.Write("Uruchomiono Serwer");
+                System.Diagnostics.Debug.WriteLine("Uruchomiono Serwer");
+            }
+            catch
+            {
+                Log.Write("Błąd podczas uruchamiania serwera");
+                System.Diagnostics.Debug.WriteLine("Błąd podczas uruchamiania serwera");
+            }
 
         }
 

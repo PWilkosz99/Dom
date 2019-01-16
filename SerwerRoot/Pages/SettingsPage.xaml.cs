@@ -23,7 +23,8 @@ namespace SerwerRoot.Pages
     /// </summary>
     public sealed partial class SettingsPage : Page
     {
-  
+
+        List<bool> Prevvalue = new List<bool>();
 
         List<ModuleBody> ModulesList = App.Modules.Values.ToList();
 
@@ -46,6 +47,12 @@ namespace SerwerRoot.Pages
 
             ModuleBody ok = toggleSwitch.DataContext as ModuleBody;
 
+            if(toggleSwitch.IsOn == Modules[ok.Id].On)
+            {
+                return;
+            }
+
+
             Modules[ok.Id].Change(toggleSwitch.IsOn);
             
         }
@@ -61,7 +68,12 @@ namespace SerwerRoot.Pages
 
             ModuleBody ok = toggleSwitch.DataContext as ModuleBody;
 
+            //Prevvalue[(int)ok.Id] = Modules[ok.Id].On;
+
             toggleSwitch.IsOn = Modules[ok.Id].On;
+            
         }
+
+
     }
 }

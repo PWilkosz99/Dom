@@ -15,26 +15,22 @@ namespace SerwerRoot.Podzespoły
     {
         private static StreamWriter sw;
 
-        /// <summary>
-        /// Blokada przed czynnościami na stream ie podczas pracy w funkcji BeginAsync
-        /// </summary>
-        private static ManualResetEvent BeginWorker = new ManualResetEvent(false);
 
         /// <summary>
         /// Otwórz plik
         /// </summary>
-        public static async void BeginAsync()
+        public static async Task BeginAsync()
         {
-            BeginWorker.Reset();
             StorageFolder DebugFolder = await ApplicationData.Current.LocalFolder.CreateFolderAsync("Debug logs", CreationCollisionOption.OpenIfExists);
             StorageFolder YearDebugFolder = await DebugFolder.CreateFolderAsync(DateTime.Now.Year.ToString(), CreationCollisionOption.OpenIfExists);
             StorageFolder MonthDebugFolder = await YearDebugFolder.CreateFolderAsync(System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(DateTime.Now.Month), CreationCollisionOption.OpenIfExists);
-            StorageFile LogFile =  await MonthDebugFolder.CreateFileAsync(String.Format("{0:d.MM.yyy HH.mm.ss}.txt", DateTime.Now), CreationCollisionOption.OpenIfExists);
-            sw = new StreamWriter((await LogFile.OpenAsync(FileAccessMode.ReadWrite, StorageOpenOptions.AllowReadersAndWriters)).AsStream())
-            {
-                AutoFlush = true,
-            };
-           // BeginWorker.Set();
+            StorageFile LogFile = await MonthDebugFolder.CreateFileAsync(String.Format("{0:d.MM.yyy HH.mm.ss}.txt", DateTime.Now), CreationCollisionOption.OpenIfExists);
+
+            var file = await LogFile.OpenAsync(FileAccessMode.ReadWrite, StorageOpenOptions.AllowReadersAndWriters);
+
+
+            sw = new StreamWriter(file.AsStream());
+            sw.AutoFlush = true;
         }
 
         /// <summary>
@@ -47,11 +43,18 @@ namespace SerwerRoot.Podzespoły
 
             LogPage.AddLog(text);
 
-            DateTime date = DateTime.Now;
-           // BeginWorker.WaitOne();    
+            DateTime date = DateTime.Now; 
             try
             {
-                sw.WriteLine(date + ": " +  text);               
+                if (sw != null)
+                {
+                    sw.WriteLine(date + ": " + text);
+                }
+                else
+                {
+                    await Task.Delay(500);
+                    Write(text, PrintToConsole);
+                }
             }
             catch (Exception e)
             {
@@ -87,6 +90,11 @@ namespace SerwerRoot.Podzespoły
         public static void Write(Exception e)
         {            
             Write(e.Message);
+        }
+
+        public static void Write(Exception e, bool PrintToConsole)
+        {
+            Write(e.Message, PrintToConsole);
         }
     }
 }

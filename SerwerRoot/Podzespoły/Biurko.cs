@@ -15,8 +15,6 @@ namespace SerwerRoot.Podzespoły
     {
         public static App.ModulesId id = App.ModulesId.Biurko;
 
-        Task BiurkoTask;
-
         public Biurko()
         {
             Id = App.ModulesId.Biurko;
@@ -24,24 +22,15 @@ namespace SerwerRoot.Podzespoły
             ModuleBodyWork();
         }
 
-        public override void Start()
+        public override async void Start()
         {
-            if(BiurkoTask != null)
-            {
-                return;
-            }
-            BiurkoTask = new Task(BeginAsync);
-            BiurkoTask.Start();
+            await BeginAsync();
             base.Start();
         }
 
         public override void Stop()
         {
-            if(BiurkoTask == null)
-            {
-                return;
-            }
-            BiurkoTask.Dispose();
+            Czesci.Clear();
             base.Stop();
         }
 
@@ -117,7 +106,7 @@ namespace SerwerRoot.Podzespoły
         /// <summary>
         /// Połącz z modułem wykonawczym LED
         /// </summary>
-        public static async void BeginAsync()
+        public static async Task BeginAsync()
         {
             BeginWorker.Reset();
 
